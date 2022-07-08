@@ -10,10 +10,21 @@ body {
   color: var(--text-color);
 }
 
+* {
+  padding: 0;
+  margin: 0;
+}
+
 /* HEADER */
 .top {
-  background-color: #fff;
+  position: absolute;
+  width: 1600px;
+  height: 80px;
+  left: 0px;
+  top: 0px;
+  background: #ffffff;
 }
+
 .logo {
   font-family: "Raleway";
   font-weight: 700;
@@ -22,9 +33,25 @@ body {
   letter-spacing: 0.03em;
   text-decoration: none;
   color: var(--blue-color);
+
+  position: absolute;
+  width: 145px;
+  height: 31px;
+  left: 215px;
+  top: 24px;
 }
 .logo > span {
   color: #000000;
+}
+
+.menu-nav {
+  position: absolute;
+  width: 254px;
+  height: 16px;
+  left: 453px;
+  top: 32px;
+  display: flex;
+  justify-content: space-between;
 }
 .agency-header {
   font-family: "Roboto";
@@ -76,6 +103,11 @@ body {
   color: var(--grey-text-color);
 
   text-decoration: none;
+  position: absolute;
+  width: 135px;
+  height: 16px;
+  left: 1078px;
+  top: 32px;
 }
 .mail-top:hover,
 .mail-top:focus {
@@ -90,6 +122,11 @@ body {
   letter-spacing: 0.02em;
   text-decoration: none;
   color: var(--grey-text-color);
+  position: absolute;
+  width: 110px;
+  height: 16px;
+  left: 1263px;
+  top: 32px;
 }
 .phone-top:hover,
 .phone-top:focus {
@@ -99,6 +136,12 @@ body {
 
 /* BODY */
 .main-box {
+  position: absolute;
+  width: 1600px;
+  height: 600px;
+  left: 0px;
+  top: 80px;
+
   background: var(--grey-background);
 }
 .text-box {
@@ -109,6 +152,12 @@ body {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: #ffffff;
+
+  position: absolute;
+  width: 696px;
+  height: 120px;
+  left: 452px;
+  top: 280px;
 }
 .button-box {
   background: var(--blue-color);
@@ -121,6 +170,12 @@ body {
   letter-spacing: 0.06em;
 
   color: #ffffff;
+
+  position: absolute;
+  width: 200px;
+  height: 50px;
+  left: 700px;
+  top: 430px;
 }
 .box-lorem {
   background: #ffffff;
