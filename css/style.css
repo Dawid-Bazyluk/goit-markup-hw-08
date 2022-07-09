@@ -137,19 +137,21 @@ img {
 /* HEADER */
 
 /* BODY */
-.main-box {}
+.main-box
    
 
 .text-box {
+  display: flex;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: #090909;
+  color:#ffffff;
+  background-color: var(--grey-background);
+  
   padding-top: 200px;
   padding-left: 452px;
-  background-color: #ccc;
   flex-grow: 1;
   align-items: center;
 }
@@ -168,13 +170,7 @@ img {
   padding: 10px 41px;
 }
 .box-lorem {
-  position: absolute;
-  width: 1170px;
-  height: 101px;
-  left: 215px;
-  top: 774px;
-
-  background: #ffffff;
+    background: #ffffff;
 }
 .main-list {
   list-style: none;
@@ -197,12 +193,7 @@ img {
   color: var(--grey-text-color);
 }
 .about-box {
-  position: absolute;
-  width: 1170px;
-  height: 386px;
-  left: 215px;
-  top: 969px;
-  background: #ffffff;
+  
 }
 .text-about {
   font-weight: 700;
@@ -218,13 +209,7 @@ img {
 }
 
 .team-box {
-  position: absolute;
-  width: 1600px;
-  height: 648px;
-  left: 0px;
-  top: 1449px;
-
-  background: #f5f4fa;
+ 
 }
 
 .text-team {
@@ -256,14 +241,7 @@ img {
 }
 /* BODY */
 /* BOTTOM */
-.bottom {
-  position: absolute;
-  width: 1600px;
-  height: 252px;
-  left: 0px;
-  top: 2097px;
-  background: var(--grey-background);
-}
+.bottom {}
 
 .address-bottom {
   font-family: "Roboto";
