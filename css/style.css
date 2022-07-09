@@ -10,19 +10,34 @@ body {
   color: var(--text-color);
 }
 
-* {
+*,
+*::after,
+*::before {
   padding: 0;
   margin: 0;
 }
 
-/* HEADER */
-.top {
-  position: absolute;
-  width: 1600px;
-  height: 80px;
-  left: 0px;
-  top: 0px;
-  background: #ffffff;
+img {
+  display: block;
+}
+
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.container {
+  width: 1200px;
+  padding: 0 15px;
+  align-items: center;
+  margin: 0 auto;
+}
+
+/******************************** HEADER */
+
+.top .container {
+  display: flex;
+  align-items: center;
 }
 
 .logo {
@@ -33,32 +48,26 @@ body {
   letter-spacing: 0.03em;
   text-decoration: none;
   color: var(--blue-color);
-
-  position: absolute;
-  width: 145px;
-  height: 31px;
-  left: 215px;
-  top: 24px;
+  margin-right: 93px;
+  padding-top: 24px;
 }
 .logo > span {
   color: #000000;
 }
 
 .menu-nav {
-  position: absolute;
-  width: 254px;
-  height: 16px;
-  left: 453px;
-  top: 32px;
   display: flex;
-  justify-content: space-between;
+  align-items: center;
+  padding-top: 32px;
 }
+
 .agency-header {
   font-family: "Roboto";
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  margin-right: 46px;
 }
 .agency-header:hover {
   color: var(--blue-color);
@@ -72,6 +81,7 @@ body {
   letter-spacing: 0.02em;
   text-decoration: none;
   color: var(--text-color);
+  margin-right: 46px;
 }
 
 .portfolio-header:hover,
@@ -99,15 +109,11 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-
   color: var(--grey-text-color);
-
   text-decoration: none;
-  position: absolute;
-  width: 135px;
-  height: 16px;
-  left: 1078px;
-  top: 32px;
+  margin-left: auto;
+  margin-right: 50px;
+  padding-top: 32px;
 }
 .mail-top:hover,
 .mail-top:focus {
@@ -122,11 +128,7 @@ body {
   letter-spacing: 0.02em;
   text-decoration: none;
   color: var(--grey-text-color);
-  position: absolute;
-  width: 110px;
-  height: 16px;
-  left: 1263px;
-  top: 32px;
+  padding-top: 32px;
 }
 .phone-top:hover,
 .phone-top:focus {
@@ -135,53 +137,48 @@ body {
 /* HEADER */
 
 /* BODY */
-.main-box {
-  position: absolute;
-  width: 1600px;
-  height: 600px;
-  left: 0px;
-  top: 80px;
+.main-box {}
+   
 
-  background: var(--grey-background);
-}
 .text-box {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: #ffffff;
-
-  position: absolute;
-  width: 696px;
-  height: 120px;
-  left: 452px;
-  top: 280px;
+  color: #090909;
+  padding-top: 200px;
+  padding-left: 452px;
+  background-color: #ccc;
+  flex-grow: 1;
+  align-items: center;
 }
 .button-box {
   background: var(--blue-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
+  border: none;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
   cursor: pointer;
   letter-spacing: 0.06em;
-
   color: #ffffff;
-
-  position: absolute;
   width: 200px;
-  height: 50px;
-  left: 700px;
-  top: 430px;
+  padding: 10px 41px;
 }
 .box-lorem {
+  position: absolute;
+  width: 1170px;
+  height: 101px;
+  left: 215px;
+  top: 774px;
+
   background: #ffffff;
 }
 .main-list {
   list-style: none;
+  display: flex;
 }
 
 .lorem-ipsum-head {
@@ -200,6 +197,11 @@ body {
   color: var(--grey-text-color);
 }
 .about-box {
+  position: absolute;
+  width: 1170px;
+  height: 386px;
+  left: 215px;
+  top: 969px;
   background: #ffffff;
 }
 .text-about {
@@ -212,8 +214,16 @@ body {
 
 .about-pic {
   list-style: none;
+  display: flex;
 }
+
 .team-box {
+  position: absolute;
+  width: 1600px;
+  height: 648px;
+  left: 0px;
+  top: 1449px;
+
   background: #f5f4fa;
 }
 
@@ -226,6 +236,7 @@ body {
 }
 .team-list {
   list-style: none;
+  display: flex;
 }
 .team-name {
   font-weight: 500;
@@ -246,6 +257,11 @@ body {
 /* BODY */
 /* BOTTOM */
 .bottom {
+  position: absolute;
+  width: 1600px;
+  height: 252px;
+  left: 0px;
+  top: 2097px;
   background: var(--grey-background);
 }
 
