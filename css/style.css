@@ -61,7 +61,6 @@ body {
 .agency-header,
 .portfolio-header,
 .contact-header {
-  font-family: "Roboto";
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -81,12 +80,10 @@ body {
 .contact-header:hover,
 .contact-header:focus {
   color: var(--blue-color);
-  cursor: pointer;
 }
 
 .mail-top,
 .phone-top {
-  font-family: "Roboto";
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -256,7 +253,6 @@ body {
 }
 .address-bottom,
 .address-text {
-  font-family: "Roboto";
   font-style: normal;
   font-size: 14px;
   line-height: 1.71;
@@ -333,8 +329,8 @@ body {
 }
 .project-name-item {
   background: #ffffff;
-  border: 1px solid #eeeeee;
 }
+
 .project-category {
   font-size: 16px;
   line-height: 1.88;
@@ -342,4 +338,11 @@ body {
 
   color: var(--grey-text-color);
   padding: 0px 24px 20px;
+  border-right: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
+  border-left: 1px solid #eeeeee;
+}
+
+.project-name-item-img {
+  display: block;
 }
