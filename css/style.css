@@ -31,8 +31,8 @@ body {
 
 /******************************** HEADER */
 .top {
-  height: 80px;
   border-bottom: 1px solid #ececec;
+  padding-bottom: 25px;
 }
 .top .container {
   display: flex;
@@ -110,15 +110,9 @@ body {
 /* HEADER */
 
 /* BODY */
-.main-box {
-  padding-top: 0px;
-}
-.main-box .container {
-  display: block;
-  margin: auto;
+.banner-box {
   background-color: var(--grey-background);
-  width: 1600px;
-  height: 600px;
+  padding: 200px 0px;
 }
 
 .text-box {
@@ -128,10 +122,11 @@ body {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: #ffffff;
-  /* margin-bottom: 30px; */
+  padding-bottom: 30px;
   display: block;
   text-align: center;
-  padding: 200px 452px 30px 452px;
+  margin: auto;
+  width: 696px;
 }
 .button-box {
   background: var(--blue-color);
