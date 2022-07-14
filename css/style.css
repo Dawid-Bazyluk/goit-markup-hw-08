@@ -91,11 +91,22 @@ body {
   color: var(--grey-text-color);
   text-decoration: none;
 }
+
+.icon {
+  margin-right: 10px;
+  fill: var(--grey-text-color);
+  }
+
+ 
 .mail-top {
   margin-left: auto;
   margin-right: 50px;
   padding-top: 32px;
 }
+.icon:hover,
+.icon:focus { fill:red;}
+
+
 .mail-top:hover,
 .mail-top:focus,
 .phone-top:hover,
