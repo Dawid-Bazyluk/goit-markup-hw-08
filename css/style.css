@@ -401,22 +401,21 @@ body {
 .bottom-list-social-links-icon {
   padding: 12px;
   fill: #fff;
-  
-  
 }
 .bottom-list-social {
   background-color: rgba(255, 255, 255, 0.1);
   border-radius: 50%;
 }
-.team-list-social-links:hover,
-.team-list-social-links:focus {
+.bottom-list-social-links:hover,
+.bottom-list-social-links:focus {
   background: var(--blue-color);
   border-radius: 50%;
 }
-.bottom-list-social-links {}
-
-.team-list-social-links-icon:hover {
-  fill: #fff;}
+.bottom-list-social-links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
 /* ---------PORTFOLIO-------- */
 
