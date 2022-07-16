@@ -122,7 +122,7 @@ body {
 
 /* BODY */
 .banner-box {
-  background-image: url(/images/backgrounimg.jpg);
+  background-image: url(images/backgrounimg.jpg);
   background-repeat: no-repeat;
   background-position: center;
   padding: 200px 0px;
