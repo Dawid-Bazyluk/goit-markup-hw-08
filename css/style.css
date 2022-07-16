@@ -275,7 +275,6 @@ body {
 }
 
 .team-list-social-links-icon {
-  display: inline-block;
   padding: 12px;
   fill: #afb1b8;
 }
@@ -286,7 +285,7 @@ body {
   border-radius: 50%;
 }
 
-.team-list-social-links:hover {
+.team-list-social-links-icon:hover {
   fill: #fff;
 }
 
