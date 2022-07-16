@@ -275,6 +275,7 @@ body {
 }
 
 .team-list-social-links-icon {
+  display: inline-block;
   padding: 12px;
   fill: #afb1b8;
 }
@@ -283,8 +284,12 @@ body {
 .team-list-social-links:focus {
   background: var(--blue-color);
   border-radius: 50%;
-  fill: #ffffff;
 }
+
+.team-list-social-links:hover {
+  fill: #fff;
+}
+
 /* BODY */
 /* BOTTOM */
 .bottom {
