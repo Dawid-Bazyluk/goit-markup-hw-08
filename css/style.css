@@ -327,6 +327,13 @@ body {
   fill: var(--grey-icon);
 }
 
+.our-clients-list-icon:hover {
+  fill: var(--blue-color);
+  }
+  .our-clients-list-item:hover {
+    border: 1px solid var(--blue-color);
+  }
+
 /* BODY */
 /* BOTTOM */
 .bottom {
