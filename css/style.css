@@ -327,11 +327,15 @@ body {
   fill: var(--grey-icon);
 }
 
-.our-clients-list-icon:hover {
+.our-clients-list-icon:hover,
+.our-clients-list-icon:focus {
   fill: var(--blue-color);
+  cursor: pointer;
   }
-  .our-clients-list-item:hover {
+  .our-clients-list-item:hover,
+  .our-clients-list-item:focus {
     border: 1px solid var(--blue-color);
+    cursor: pointer;
   }
 
 /* BODY */
