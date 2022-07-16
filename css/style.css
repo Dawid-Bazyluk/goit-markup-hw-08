@@ -331,17 +331,18 @@ body {
 .our-clients-list-icon:focus {
   fill: var(--blue-color);
   cursor: pointer;
-  }
-  .our-clients-list-item:hover,
-  .our-clients-list-item:focus {
-    border: 1px solid var(--blue-color);
-    cursor: pointer;
-  }
+}
+.our-clients-list-item:hover,
+.our-clients-list-item:focus {
+  border: 1px solid var(--blue-color);
+  cursor: pointer;
+}
 
 /* BODY */
 /* BOTTOM */
 .bottom {
   background-color: var(--grey-background);
+  display: flex;
 }
 .bottom .logo {
   padding-top: 60px;
@@ -360,6 +361,7 @@ body {
   color: #ffffff;
   padding-top: 20px;
   padding-bottom: 9px;
+  width: 246px;
 }
 
 .address-text {
@@ -374,6 +376,28 @@ body {
 .address-text .phone {
   margin-top: 9px;
 }
+.bottom-main-list {
+  list-style: none;
+  display: flex;
+}
+.bottom-social {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bottom-main-list-item:first-child {
+  margin-right: 70px;
+}
+.bottom-text-join-us {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.143;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+padding-bottom: 20px;}
+
 /* ---------PORTFOLIO-------- */
 
 .portfolio-main .container {
@@ -428,7 +452,12 @@ body {
 .project-name-item {
   background: #ffffff;
 }
-
+.project-name-item:hover,
+.project-name-item:focus {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
+  cursor: pointer;
+}
 .project-category {
   font-size: 16px;
   line-height: 1.88;
