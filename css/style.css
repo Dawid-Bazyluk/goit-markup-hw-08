@@ -3,6 +3,7 @@
   --grey-text-color: #757575;
   --text-color: #212121;
   --grey-background: #2f303a;
+  --grey-icon: #afb1b8;
 }
 
 body {
@@ -263,7 +264,7 @@ body {
   list-style: none;
   display: flex;
   width: 206px;
-  padding-bottom: 16px;
+  padding-top: 16px;
   justify-content: space-between;
   margin: auto;
 }
@@ -276,7 +277,7 @@ body {
 
 .team-list-social-links-icon {
   padding: 12px;
-  fill: #afb1b8;
+  fill: var(--grey-icon);
 }
 
 .team-list-social-links:hover,
@@ -287,6 +288,43 @@ body {
 
 .team-list-social-links-icon:hover {
   fill: #fff;
+}
+
+/* **************** OUR CLIENTS */
+
+.our-clients {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.167;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.our-clients-list {
+  list-style: none;
+  display: flex;
+}
+
+.our-clients-list-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 170px;
+  height: 92px;
+  border: 1px solid var(--grey-icon);
+  border-radius: 4px;
+  margin-top: 50px;
+}
+
+.our-clients-list-item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.our-clients-list-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  fill: var(--grey-icon);
 }
 
 /* BODY */
