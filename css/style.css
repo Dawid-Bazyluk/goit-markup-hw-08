@@ -108,6 +108,11 @@ body {
   fill: var(--blue-color);
 }
 
+.phone-top {
+  display: flex;
+  align-items: center;
+}
+
 .mail-top:hover,
 .mail-top:focus,
 .phone-top:hover,
@@ -123,7 +128,12 @@ body {
 
 /* BODY */
 .banner-box {
-  background-image: url(../images/backgrounimg.jpg);
+  background-image: linear-gradient(
+      to bottom,
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(../images/backgrounimg.jpg);
   background-repeat: no-repeat;
   background-position: center;
   padding: 200px 0px;
