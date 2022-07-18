@@ -295,6 +295,9 @@ body {
   background: var(--blue-color);
   border-radius: 50%;
 }
+.team-list-social-links:focus .team-list-social-links-icon {
+  fill: #fff;
+}
 
 .team-list-social-links-icon:hover,
 .team-list-social-links-icon:focus {
