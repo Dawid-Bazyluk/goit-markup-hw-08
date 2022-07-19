@@ -105,6 +105,7 @@ body {
 }
 
 .mail-top:hover .icon-top {fill: var(--blue-color);}
+.phone-top:hover .icon-top {fill: var(--blue-color);}
 
 
 
@@ -419,11 +420,12 @@ body {
   background-color: rgba(255, 255, 255, 0.1);
   border-radius: 50%;
 }
-.bottom-list-social-links:hover,
-.bottom-list-social-links:focus {
+
+.bottom-list-social:hover .bottom-list-social-links {
   background: var(--blue-color);
-  border-radius: 50%;
-}
+  border-radius: 50px;
+    }
+
 .bottom-list-social-links {
   display: flex;
   align-items: center;
