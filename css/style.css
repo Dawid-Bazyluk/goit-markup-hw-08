@@ -103,10 +103,10 @@ body {
   margin-right: 50px;
   padding-top: 32px;
 }
-.icon-top:hover,
-.icon-top:focus {
-  fill: var(--blue-color);
-}
+
+.mail-top:hover .icon-top {fill: var(--blue-color);}
+
+
 
 .phone-top {
   display: flex;
@@ -341,15 +341,14 @@ body {
   fill: var(--grey-icon);
 }
 
-.our-clients-list-icon:hover,
-.our-clients-list-icon:focus {
-  fill: var(--blue-color);
-  cursor: pointer;
-}
 .our-clients-list-item:hover,
 .our-clients-list-item:focus {
   border: 1px solid var(--blue-color);
   cursor: pointer;
+}
+
+.our-clients-list-item:hover .our-clients-list-icon {
+  fill: var(--blue-color);
 }
 
 /* BODY */
