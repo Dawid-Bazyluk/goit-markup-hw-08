@@ -58,6 +58,7 @@ body {
   display: flex;
   align-items: center;
   padding-top: 32px;
+  position: relative;
 }
 .agency-header,
 .portfolio-header,
@@ -85,10 +86,12 @@ body {
 .menu-nav::after .agency-header{
   content: "";
   position: absolute;
+  border-bottom: #2196f3 ;
+  border-radius: 2px;
   bottom: 0;
   height: 2px;
   width: 100%;
-  color: var();
+  color: var(--blue-color);
   
 }
 .mail-top,
