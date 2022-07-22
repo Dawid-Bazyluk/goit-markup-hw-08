@@ -22,7 +22,9 @@
       <div class="container">
         <a class="logo" href="index.html">Web<span>Studio</span> </a>
         <nav class="menu-nav">
-          <a class="agency-header agency-header-active" href="index.html">Agencja</a>
+          <a class="agency-header agency-header-active" href="index.html"
+            >Agencja</a
+          >
           <a class="portfolio-header" href="portfolio.html">Portfolio</a>
           <a class="contact-header" href="#">Kontakt</a>
         </nav>
@@ -44,7 +46,9 @@
       <section class="banner-box section">
         <div class="container">
           <h1 class="text-box">EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
-          <button type="button" class="button-box">Zamów usługe</button>
+          <button data-modal-open type="button" class="button-box">
+            Zamów usługe
+          </button>
         </div>
       </section>
       <section class="box-lorem section">
@@ -499,5 +503,15 @@
         </ul>
       </div>
     </footer>
+    <div data-modal class="modal-container is-hidden">
+      <div class="backdrop">
+        <div class="modal">
+          <button data-modal-close type="button is-hidden" class="button-x">
+            X
+          </button>
+        </div>
+      </div>
+    </div>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
