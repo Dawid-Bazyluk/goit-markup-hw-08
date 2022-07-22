@@ -184,6 +184,10 @@ body {
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
   position: absolute;
+  animation-name: openModal;
+  animation-duration: 500ms;
+  animation-timing-function: linear;
+  animation-iteration-count: 2;
 }
 
 .button-x {
@@ -197,9 +201,26 @@ body {
 }
 
 .is-hidden {
-visibility: hidden;
-opacity: 0;
-pointer-events:none;
+  visibility: hidden;
+  opacity: 0;
+  pointer-events: none;
+}
+
+@keyframes openModal {
+  0% {
+    transform: scale(0);
+    opacity: 0%;
+  }
+
+  50% {
+    transform: scale(0, 5);
+    opacity: 50%;
+  }
+
+  100% {
+    transform: scale(1);
+    opacity: 100%;
+  }
 }
 
 /* ************************** OKNO MODALNE END */
