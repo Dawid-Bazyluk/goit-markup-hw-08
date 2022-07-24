@@ -161,8 +161,9 @@ body {
   height: 100%;
   top: 0;
   left: 0;
-  transition-property: opacity;
-  transition-duration: 1s;
+   transition: transform 1s cubic-bezier(0.4, 0, 0.2, 1),
+    visibility 1s cubic-bezier(0.4, 0, 0.2, 1),
+    opacity 1s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .backdrop {
@@ -208,7 +209,7 @@ body {
   visibility: hidden;
   opacity: 0%;
   pointer-events: none;
-  transform: scale(0.1);
+  transform: scaleY(0);
 }
 
 @keyframes openModal {
