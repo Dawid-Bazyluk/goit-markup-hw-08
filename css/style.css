@@ -190,7 +190,6 @@ body {
   animation-duration: 2s;
   animation-timing-function: linear;
   animation-direction: alternate; */
-  
 }
 
 .button-x {
@@ -201,12 +200,9 @@ body {
   width: 30px;
   border-radius: 50%;
   border: 1px solid rgba(0, 0, 0, 0.1);
-  background: #FFFFFF;
+  background: #ffffff;
   margin-top: 8px;
   margin-right: 8px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   cursor: pointer;
 }
 
