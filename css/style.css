@@ -161,6 +161,8 @@ body {
   height: 100%;
   top: 0;
   left: 0;
+  transition-property: opacity (100%);
+  transition-duration: 1s;
 }
 
 .backdrop {
@@ -174,7 +176,6 @@ body {
   height: 100%;
   z-index: 10;
   background: rgba(0, 0, 0, 0.3);
-  transition: transform 3000ms linear, visibility 3000ms linear, opacity 3000ms linear;
 }
 
 .modal {
@@ -187,25 +188,32 @@ body {
   position: absolute;
   /* animation-name: openModal;
   animation-duration: 2s;
-  animation-timing-function: linear; */
-  transition: transform 3000ms linear, visibility 3000ms linear, opacity 3000ms linear;
+  animation-timing-function: linear;
+  animation-direction: alternate; */
+  
 }
 
 .button-x {
   position: absolute;
   right: 0;
   top: 0;
+  height: 30px;
+  width: 30px;
   border-radius: 50%;
-  padding: 9px 10px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  background: #FFFFFF;
   margin-top: 8px;
   margin-right: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
 }
 
 .is-hidden {
   visibility: hidden;
-  
-  opacity: 0;
-  /* pointer-events: none; */
+  opacity: 0%;
+  pointer-events: none;
 }
 
 @keyframes openModal {
