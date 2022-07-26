@@ -685,3 +685,78 @@ body {
 .project-name-item-img {
   display: block;
 }
+
+/* **************************FORMULARZ */
+
+label {
+  display: flex;
+  flex-direction: column;
+
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+input {
+  height: 40px;
+  padding-left: 42px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+}
+.form-name {
+  margin-top: 12px;
+  margin-bottom: 4px;
+}
+
+.form-tel,
+.form-email,
+.form-comment {
+  margin-bottom: 4px;
+  margin-top: 10px;
+}
+
+textarea {
+  padding: 12px 16px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+  resize: none;
+}
+
+.form-header {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.15;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+  margin-top: 40px;
+}
+label > p,
+textarea {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.666;
+  letter-spacing: 0.01em;
+
+  color: var(--grey-text-color);
+}
+input:focus,
+textarea:focus {
+  border: 1px solid var(--blue-color);
+  border-radius: 4px;
+  outline: none;
+}
+
+.text-privacy-center {
+  text-align: center;
+  font-size: 14px;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
+  color: var(--grey-text-color);
+  margin-top: 20px;
+}
+.text-privacypolitic-color {
+  color: var(--blue-color);
+  text-decoration: underline;
+  cursor: pointer;
+}
+/* **************************END FORMULARZ */
