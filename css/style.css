@@ -731,7 +731,7 @@ textarea {
   color: #212121;
   margin-top: 40px;
 }
-label > p,
+label > span,
 textarea {
   font-weight: 400;
   font-size: 12px;
@@ -764,7 +764,7 @@ textarea:focus {
 .button-form {
   font-weight: 700;
   font-size: 16px;
-  line-height: 1, 875;
+  line-height: 1.875;
   display: flex;
   align-items: center;
   text-align: center;
@@ -780,7 +780,19 @@ textarea:focus {
   cursor: pointer;
 }
 
-.form-icon {
+
+.form-icon-phone,
+.form-icon-name {
+  padding: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 46px;
+  left: 15px;
+}
+.form-icon-email {
+  padding: 3px 1.5px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -789,11 +801,4 @@ textarea:focus {
   left: 15px;
 }
 
-.form-icon-phone,
-.form-icon-name {
-  padding: 3px;
-}
-.form-icon-email {
-  padding: 3px 1.5px;
-}
 /* **************************END FORMULARZ */
