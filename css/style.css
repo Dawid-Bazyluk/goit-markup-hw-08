@@ -702,7 +702,6 @@ input {
   padding-left: 42px;
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
-  
 }
 .form-name {
   margin-top: 12px;
@@ -790,4 +789,11 @@ textarea:focus {
   left: 15px;
 }
 
+.form-icon-phone,
+.form-icon-name {
+  padding: 3px;
+}
+.form-icon-email {
+  padding: 3px 1.5px;
+}
 /* **************************END FORMULARZ */
