@@ -780,7 +780,6 @@ textarea:focus {
   cursor: pointer;
 }
 
-
 .form-icon-phone,
 .form-icon-name {
   padding: 3px;
@@ -800,5 +799,13 @@ textarea:focus {
   top: 46px;
   left: 15px;
 }
-
+input:focus + .form-icon-name {
+  fill: var(--blue-color);
+}
+input:focus + .form-icon-phone {
+  fill: var(--blue-color);
+}
+input:focus + .form-icon-email {
+  fill: var(--blue-color);
+}
 /* **************************END FORMULARZ */
