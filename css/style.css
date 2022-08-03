@@ -824,7 +824,7 @@ input:focus + .form-icon-email {
 .checkbox:checked + .text-privacy-text::before {
   background-color: var(--blue-color);
   border: none;
-  background-image: url(..images/Vector.svg);
+  background-image: url(../images/Vector.svg);
   background-repeat: no-repeat;
   background-position: center;
 }
