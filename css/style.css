@@ -559,6 +559,7 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #ffffff;
+  padding-top: 10px;
 }
 
 .bottom-list-social-links-icon {
@@ -830,13 +831,25 @@ input:focus + .form-icon-email {
 }
 
 .visually-hidden {
-  position: absolute !important;
+  /* position: absolute !important;
   clip: rect(1px 1px 1px 1px);
   clip: rect(1px, 1px, 1px, 1px);
   padding: 0 !important;
   border: 0 !important;
   height: 1px !important;
   width: 1px !important;
-  overflow: hidden;
+  overflow: hidden; */
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+  display: none;
 }
+
 /* **************************END FORMULARZ */
+
+/* ***********************newsletter-footer */
+.newsletter-footer {
+  display: flex;
+}
+/* ***********************END-newsletter-footer */
+
