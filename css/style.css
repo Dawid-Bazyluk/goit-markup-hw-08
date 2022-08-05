@@ -421,7 +421,7 @@ body {
   list-style: none;
   display: flex;
   width: 206px;
-  padding-top: 16px;
+  padding-top: 20px;
   justify-content: space-between;
   margin: auto;
 }
