@@ -285,14 +285,11 @@ body {
   cursor: pointer;
   letter-spacing: 0.06em;
   color: #ffffff;
-  width: 200px;
   padding: 10px 41px;
   display: block;
   margin: 0 auto;
 }
-.box-lorem {
-  background: #ffffff;
-}
+
 .main-list {
   list-style: none;
   display: flex;
@@ -301,7 +298,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 270px;
+  
   height: 120px;
   background: #f5f4fa;
   border-radius: 4px;
@@ -346,7 +343,7 @@ body {
 }
 .about-pic-item {
   position: relative;
-  padding: 0;
+ 
 }
 
 .about-pic-item img {
