@@ -202,7 +202,14 @@ body {
   background: #ffffff;
   margin-top: 8px;
   margin-right: 8px;
+}
+
+.button-x:hover {
+  background-color: var(--blue-color);
   cursor: pointer;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border: none;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .is-hidden {
@@ -298,7 +305,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  
+
   height: 120px;
   background: #f5f4fa;
   border-radius: 4px;
@@ -343,7 +350,6 @@ body {
 }
 .about-pic-item {
   position: relative;
- 
 }
 
 .about-pic-item img {
@@ -807,6 +813,13 @@ input:focus + .form-icon-email {
   fill: var(--blue-color);
 }
 
+.text-privacy-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
 .text-privacy-text::before {
   display: inline-block;
   content: "";
@@ -815,7 +828,7 @@ input:focus + .form-icon-email {
   border: 1.5px solid #000;
   border-radius: 2px;
   margin-right: 7px;
-  vertical-align: sub;
+  vertical-align: text-top;
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
