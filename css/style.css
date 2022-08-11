@@ -35,11 +35,11 @@ body {
   border-bottom: 1px solid #ececec;
   padding-bottom: 25px;
 }
-.top .container {
+.top__container {
   display: flex;
 }
 
-.logo {
+.top__logo {
   font-family: "Raleway";
   font-weight: 700;
   font-size: 26px;
@@ -50,19 +50,19 @@ body {
   margin-right: 93px;
   padding-top: 24px;
 }
-.logo > span {
+.top__logo > span {
   color: #000000;
 }
 
-.menu-nav {
+.navigation {
   display: flex;
   align-items: center;
   padding-top: 32px;
   position: relative;
 }
-.agency-header,
-.portfolio-header,
-.contact-header {
+.navigation__agency,
+.navigation__portfolio,
+.navigation__contact {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -70,20 +70,20 @@ body {
   text-decoration: none;
   color: var(--text-color);
 }
-.agency-header,
-.portfolio-header {
+.navigation__agency,
+.navigation__portfolio {
   margin-right: 46px;
 }
 
-.agency-header:hover,
-.agency-header:focus,
-.portfolio-header:hover,
-.portfolio-header:focus,
-.contact-header:hover,
-.contact-header:focus {
+.navigation__agency:hover,
+.navigation__agency:focus,
+.navigation__portfolio:hover,
+.navigation__portfolio:focus,
+.navigation__contact:hover,
+.navigation__contact:focus {
   color: var(--blue-color);
 }
-.agency-header-active::after {
+.navigation__agency--active::after {
   content: "";
   position: absolute;
   bottom: -29px;
@@ -96,7 +96,7 @@ body {
   display: block;
 }
 
-.portfolio-header-active::after {
+.navigation__portfolio--active::after {
   content: "";
   position: absolute;
   bottom: -29px;
@@ -108,8 +108,8 @@ body {
   cursor: default;
 }
 
-.mail-top,
-.phone-top {
+.top__mail,
+.top__phone {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -118,37 +118,37 @@ body {
   text-decoration: none;
 }
 
-.icon-top {
+.top__icon {
   margin-right: 10px;
   fill: var(--grey-text-color);
 }
 
-.mail-top {
+.top__mail {
   margin-left: auto;
   margin-right: 50px;
   padding-top: 32px;
 }
 
-.mail-top:hover .icon-top {
+.top__mail:hover .top__icon {
   fill: var(--blue-color);
 }
-.phone-top:hover .icon-top {
+.top__phone:hover .top__icon {
   fill: var(--blue-color);
 }
 
-.phone-top {
+.top__phone {
   display: flex;
   align-items: center;
 }
 
-.mail-top:hover,
-.mail-top:focus,
-.phone-top:hover,
-.phone-top:focus {
+.top__mail:hover,
+.top__mail:focus,
+.top__phone:hover,
+.top__phone:focus {
   color: var(--blue-color);
 }
 
-.phone-top {
+.top__phone {
   padding-top: 32px;
 }
 
@@ -218,43 +218,11 @@ body {
   pointer-events: none;
 }
 
-/* @keyframes openModal {
-  0% {
-    transform: scale(0);
-    opacity: 0;
-  }
-
-  50% {
-    transform: scale(0.5);
-    opacity: 50%;
-  }
-
-  100% {
-    transform: scale(1);
-    opacity: 100%;
-  }
-}
-
-@keyframes closeModal {
-  0% {
-    transform: scale(1);
-    opacity: 100%;
-  }
-
-  50% {
-    transform: scale(0.5);
-    opacity: 50%;
-  }
-
-  100% {
-    transform: scale(0);
-    opacity: 0;
-  }
-} */
-
 /* ************************** OKNO MODALNE END */
 /* BODY */
-.banner-box {
+
+/* BANNER */
+.banner {
   background-image: linear-gradient(
       to bottom,
       rgba(47, 48, 58, 0.4),
@@ -267,7 +235,7 @@ body {
   z-index: 0;
 }
 
-.text-box {
+.banner__text {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -281,7 +249,7 @@ body {
   width: 696px;
   z-index: 1;
 }
-.button-box {
+.banner__btn {
   background: var(--blue-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
@@ -297,21 +265,24 @@ body {
   margin: 0 auto;
 }
 
-.main-list {
+/* END BANNER */
+/* LOREM */
+.lorem-list {
   list-style: none;
   display: flex;
 }
-.main-list-icon {
+
+.lorem-list__icon {
   display: flex;
   justify-content: center;
   align-items: center;
-
   height: 120px;
   background: #f5f4fa;
   border-radius: 4px;
   margin-bottom: 30px;
 }
-.lorem-ipsum-head {
+
+.lorem__head {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -319,18 +290,16 @@ body {
   text-transform: uppercase;
   margin-bottom: 10px;
 }
-.lorem-ipsum-text {
+.lorem__text {
   font-size: 14px;
   line-height: 1.71;
-
   letter-spacing: 0.03em;
-
   color: var(--grey-text-color);
 }
-.main-list-item:not(:last-child) {
+.lorem-list__item:not(:last-child) {
   margin-right: 30px;
 }
-
+/* END LOREM */
 .text-about {
   margin-bottom: 50px;
   font-weight: 700;
