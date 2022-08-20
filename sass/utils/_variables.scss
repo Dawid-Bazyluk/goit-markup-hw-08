@@ -1,0 +1,21 @@
+:root {
+  --blue-color: #2196f3;
+  --grey-text-color: #757575;
+  --text-color: #212121;
+  --grey-background: #2f303a;
+  --grey-icon: #afb1b8;
+}
+
+body {
+  font-family: "Roboto", "Raleway", "sans-serif";
+  color: var(--text-color);
+}
+
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+}
+
+

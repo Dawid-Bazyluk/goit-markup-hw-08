@@ -1,4 +1,17 @@
 {
   "liveServer.settings.port": 5501,
-  "livePreview.defaultPreviewPath": "/index.html"
+  "livePreview.defaultPreviewPath": "/index.html",
+
+  "liveSassCompile.settings.formats": [
+    {
+        "format": "expanded",
+        "extensionName": ".css",
+        "savePath": "~/../css"
+    },
+    {
+        "extensionName": ".min.css",
+        "format": "compressed",
+        "savePath": "~/../css"
+    }
+],
 }
