@@ -1,17 +1,15 @@
 .banner {
-    background-image: linear-gradient(
-        to bottom,
-        rgba(47, 48, 58, 0.4),
-        rgba(47, 48, 58, 0.4)
-      ),
-      url(../images/backgrounimg.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    padding: 200px 0px;
-    z-index: 0;
-  }
-  
-  .banner__text {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(../images/backgrounimg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 200px 0px;
+  z-index: 0;
+  &__text {
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -25,7 +23,7 @@
     width: 696px;
     z-index: 1;
   }
-  .banner__btn {
+  &__btn {
     background: var(--blue-color);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
@@ -40,4 +38,4 @@
     display: block;
     margin: 0 auto;
   }
-  
+}

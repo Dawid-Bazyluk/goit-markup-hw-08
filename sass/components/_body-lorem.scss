@@ -1,17 +1,19 @@
 .lorem-list {
     list-style: none;
     display: flex;
-  }
-  
-  .lorem-list__icon {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 120px;
-    background: #f5f4fa;
-    border-radius: 4px;
-    margin-bottom: 30px;
-  }
+    &__icon {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 120px;
+      background: #f5f4fa;
+      border-radius: 4px;
+      margin-bottom: 30px;
+    }
+    &__item:not(:last-child) {
+      margin-right: 30px;
+    }
+  }  
   
   .lorem__header {
     font-weight: 700;
@@ -27,6 +29,4 @@
     letter-spacing: 0.03em;
     color: var(--grey-text-color);
   }
-  .lorem-list__item:not(:last-child) {
-    margin-right: 30px;
-  }
+  
