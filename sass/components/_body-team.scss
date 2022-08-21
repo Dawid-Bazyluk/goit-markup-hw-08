@@ -73,6 +73,8 @@
   }
 }
 
-.social-list__link:focus .social-list__icon {
-  fill: #fff;
+.social-list__link:focus {
+  .social-list__icon {
+    fill: #fff;
+  }
 }

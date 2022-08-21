@@ -75,11 +75,15 @@
     display: block;
   }
 }
-.project-pictures__item:hover .project-pictures__overlay {
-  transform: translate(0, 0);
+.project-pictures__item:hover {
+  .project-pictures__overlay {
+    transform: translate(0, 0);
+  }
 }
-.project-pictures__item:focus .project-pictures__overlay {
-  transform: translate(0, 0);
+.project-pictures__item:focus {
+  .project-pictures__overlay {
+    transform: translate(0, 0);
+  }
 }
 
 .project-pictures__item:hover,

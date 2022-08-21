@@ -38,8 +38,8 @@
   }
 }
 
-
-
-.clients-list__item:hover .clients-list__icon {
-  fill: $primaryColor;
+.clients-list__item:hover {
+  .clients-list__icon {
+    fill: $primaryColor;
+  }
 }

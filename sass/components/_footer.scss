@@ -2,11 +2,15 @@
   background-color: $primaryBackground;
   display: flex;
 }
-.footer .logo {
-  padding-top: 60px;
+.footer {
+  .logo {
+    padding-top: 60px;
+  }
 }
-.footer .logo > span {
-  color: #ffffff;
+.footer {
+  .logo > span {
+    color: #ffffff;
+  }
 }
 .address-bottom,
 .address-text {
@@ -34,7 +38,6 @@
     margin-top: 9px;
   }
 }
-
 
 .footer-list {
   list-style: none;
@@ -69,10 +72,12 @@
   border-radius: 50%;
 }
 
-.footer-social-list__item:hover .footer-social-list__link {
-  background: $primaryColor;
-  border-radius: 50px;
-  transition: $transition;
+.footer-social-list__item:hover {
+  .footer-social-list__link {
+    background: $primaryColor;
+    border-radius: 50px;
+    transition: $transition;
+  }
 }
 
 .footer-social-list__link {
@@ -118,5 +123,3 @@
     vertical-align: middle;
   }
 }
-
-
