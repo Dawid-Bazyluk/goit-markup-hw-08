@@ -9,6 +9,12 @@
 .clients-list {
   list-style: none;
   display: flex;
+  &__icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    fill: var(--grey-icon);
+  }
 
   &__item {
     display: flex;
@@ -32,12 +38,7 @@
   }
 }
 
-.clients-list__icon {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  fill: var(--grey-icon);
-}
+
 
 .clients-list__item:hover .clients-list__icon {
   fill: var(--blue-color);

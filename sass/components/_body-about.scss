@@ -10,30 +10,32 @@
 .about-list {
   list-style: none;
   display: flex;
-}
-
-.about-list__item {
-  position: relative;
-
-  &:not(:last-child) {
-    margin-right: 30px;
+  &__descripiton {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.142;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #ffffff;
   }
-  & img {
-    display: block;
+  &__item {
+    position: relative;
+  
+    &:not(:last-child) {
+      margin-right: 30px;
+    }
+    & img {
+      display: block;
+    }
   }
 }
 
 
 
-.about-list__descripiton {
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.142;
-  text-align: center;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: #ffffff;
-}
+
+
+
 .about-list__item .about-list__descripiton {
   position: absolute;
   bottom: 0;

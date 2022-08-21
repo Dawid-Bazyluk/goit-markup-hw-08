@@ -62,12 +62,13 @@ label {
     letter-spacing: 0.03em;
     color: var(--grey-text-color);
     margin-top: 20px;
+    &-privacy--color {
+      color: var(--blue-color);
+      text-decoration: underline;
+      cursor: pointer;
+    }
   }
-  .modal-form__text-privacy--color {
-    color: var(--blue-color);
-    text-decoration: underline;
-    cursor: pointer;
-  }
+  
   
   .modal-form__button {
     font-weight: 700;
