@@ -15,7 +15,7 @@
     &:hover,
     &:focus {
       cursor: pointer;
-      background-color: var(--blue-color);
+      background-color: $primaryColor;
       color: #ffffff;
       box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1),
         0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
@@ -51,7 +51,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(33, 150, 243, 0.9);
+    background: $primaryColor;
     font-weight: 400;
     font-size: 18px;
     line-height: 1.56;

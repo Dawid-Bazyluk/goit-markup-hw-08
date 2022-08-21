@@ -1,5 +1,4 @@
 :root {
-  --blue-color: #2196f3;
   --grey-text-color: #757575;
   --text-color: #212121;
   --grey-background: #2f303a;
@@ -46,7 +45,7 @@ body {
   line-height: 1.19;
   letter-spacing: 0.03em;
   text-decoration: none;
-  color: var(--blue-color);
+  color: #2196f3;
   margin-right: 93px;
   padding-top: 24px;
 }
@@ -79,7 +78,7 @@ body {
 .header-navigation__portfolio:focus,
 .header-navigation__contact:hover,
 .header-navigation__contact:focus {
-  color: var(--blue-color);
+  color: #2196f3;
 }
 
 .header-navigation__agency--active::after {
@@ -89,7 +88,7 @@ body {
   height: 4px;
   border-radius: 2px;
   width: 58px;
-  background-color: var(--blue-color);
+  background-color: #2196f3;
   left: -1px;
   cursor: default;
   display: block;
@@ -102,7 +101,7 @@ body {
   height: 4px;
   border-radius: 2px;
   width: 58px;
-  background-color: var(--blue-color);
+  background-color: #2196f3;
   left: 99px;
   cursor: default;
 }
@@ -129,11 +128,11 @@ body {
 }
 
 .header-contact__mail:hover .header-contact__icon {
-  fill: var(--blue-color);
+  fill: #2196f3;
 }
 
 .header-contact__phone:hover .header-contact__icon {
-  fill: var(--blue-color);
+  fill: #2196f3;
 }
 
 .header-contact__phone {
@@ -145,7 +144,7 @@ body {
 .header-contact__mail:focus,
 .header-contact__phone:hover,
 .header-contact__phone:focus {
-  color: var(--blue-color);
+  color: #2196f3;
 }
 
 .header-contact__phone {
@@ -174,7 +173,7 @@ body {
   z-index: 1;
 }
 .banner__btn {
-  background: var(--blue-color);
+  background: #2196f3;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   border: none;
@@ -322,7 +321,7 @@ body {
   justify-content: center;
 }
 .social-list__link:hover, .social-list__link:focus {
-  background: var(--blue-color);
+  background: #2196f3;
   border-radius: 50%;
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -371,13 +370,13 @@ body {
   margin-right: 30px;
 }
 .clients-list__item:hover, .clients-list__item:focus {
-  border: 1px solid var(--blue-color);
+  border: 1px solid #2196f3;
   cursor: pointer;
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .clients-list__item:hover .clients-list__icon {
-  fill: var(--blue-color);
+  fill: #2196f3;
 }
 
 .footer {
@@ -413,7 +412,7 @@ body {
   text-decoration: none;
 }
 .address-text:hover, .address-text:focus {
-  color: var(--blue-color);
+  color: #2196f3;
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .address-text .phone {
@@ -456,7 +455,7 @@ body {
 }
 
 .footer-social-list__item:hover .footer-social-list__link {
-  background: var(--blue-color);
+  background: #2196f3;
   border-radius: 50px;
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -481,7 +480,7 @@ body {
 }
 
 .footer-btn {
-  background: var(--blue-color);
+  background: #2196f3;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   border: none;
@@ -547,7 +546,7 @@ body {
   margin-right: 8px;
 }
 .modal__button:hover {
-  background-color: var(--blue-color);
+  background-color: #2196f3;
   cursor: pointer;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border: none;
@@ -615,7 +614,7 @@ textarea {
 
 input:focus,
 textarea:focus {
-  border: 1px solid var(--blue-color);
+  border: 1px solid #2196f3;
   border-radius: 4px;
   outline: none;
 }
@@ -629,7 +628,7 @@ textarea:focus {
   margin-top: 20px;
 }
 .modal-form__text-privacy--color {
-  color: var(--blue-color);
+  color: #2196f3;
   text-decoration: underline;
   cursor: pointer;
 }
@@ -644,7 +643,7 @@ textarea:focus {
   letter-spacing: 0.06em;
   color: #ffffff;
   padding: 10px 76px;
-  background: var(--blue-color);
+  background: #2196f3;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   border: none;
@@ -675,15 +674,15 @@ textarea:focus {
 }
 
 .input:focus + .modal-form__icon-name {
-  fill: var(--blue-color);
+  fill: #2196f3;
 }
 
 .input:focus + .modal-form__icon-phone {
-  fill: var(--blue-color);
+  fill: #2196f3;
 }
 
 .input:focus + .modal-form__icon-email {
-  fill: var(--blue-color);
+  fill: #2196f3;
 }
 
 .modal-form__text-privacy {
@@ -706,7 +705,7 @@ textarea:focus {
 }
 
 .modal-form__checkbox:checked + .modal-form__text-privacy::before {
-  background-color: var(--blue-color);
+  background-color: #2196f3;
   border: none;
   background-image: url(../images/Vector.svg);
   background-repeat: no-repeat;
@@ -738,7 +737,7 @@ textarea:focus {
 }
 .portfolio-buttons-list__btn:hover, .portfolio-buttons-list__btn:focus {
   cursor: pointer;
-  background-color: var(--blue-color);
+  background-color: #2196f3;
   color: #ffffff;
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -773,7 +772,7 @@ textarea:focus {
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(33, 150, 243, 0.9);
+  background: #2196f3;
   font-weight: 400;
   font-size: 18px;
   line-height: 1.56;

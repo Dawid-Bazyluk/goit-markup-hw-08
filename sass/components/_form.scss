@@ -50,7 +50,7 @@ label {
   }
   input:focus,
   textarea:focus {
-    border: 1px solid var(--blue-color);
+    border: 1px solid $primaryColor;
     border-radius: 4px;
     outline: none;
   }
@@ -63,7 +63,7 @@ label {
     color: var(--grey-text-color);
     margin-top: 20px;
     &-privacy--color {
-      color: var(--blue-color);
+      color: $primaryColor;
       text-decoration: underline;
       cursor: pointer;
     }
@@ -80,7 +80,7 @@ label {
     letter-spacing: 0.06em;
     color: #ffffff;
     padding: 10px 76px;
-    background: var(--blue-color);
+    background: $primaryColor;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     border: none;
@@ -109,13 +109,13 @@ label {
     left: 15px;
   }
   .input:focus + .modal-form__icon-name {
-    fill: var(--blue-color);
+    fill: $primaryColor;
   }
   .input:focus + .modal-form__icon-phone {
-    fill: var(--blue-color);
+    fill: $primaryColor;
   }
   .input:focus + .modal-form__icon-email {
-    fill: var(--blue-color);
+    fill: $primaryColor;
   }
   
   .modal-form__text-privacy {
@@ -138,7 +138,7 @@ label {
   }
   
   .modal-form__checkbox:checked + .modal-form__text-privacy::before {
-    background-color: var(--blue-color);
+    background-color: $primaryColor;
     border: none;
     background-image: url(../images/Vector.svg);
     background-repeat: no-repeat;
