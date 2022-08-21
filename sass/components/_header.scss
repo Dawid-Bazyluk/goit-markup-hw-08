@@ -31,7 +31,7 @@
     line-height: 1.14;
     letter-spacing: 0.02em;
     text-decoration: none;
-    color: var(--text-color);
+    color: $primaryTextColor;
   }
   &__agency,
   &__portfolio {
@@ -78,13 +78,13 @@
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: var(--grey-text-color);
+  color: $textColorGrey;
   text-decoration: none;
 }
 
 .header-contact__icon {
   margin-right: 10px;
-  fill: var(--grey-text-color);
+  fill: $textColorGrey;
 }
 
 .header-contact__mail {
