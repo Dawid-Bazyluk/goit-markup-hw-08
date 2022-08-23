@@ -26,6 +26,15 @@ body {
   display: flex;
 }
 
+.social-list-flex {
+  list-style: none;
+  display: flex;
+  width: 206px;
+  padding-top: 20px;
+  justify-content: space-between;
+  margin: auto;
+}
+
 .header {
   border-bottom: 1px solid #ececec;
   padding-bottom: 25px;
@@ -256,7 +265,6 @@ body {
   letter-spacing: 0.03em;
   margin-bottom: 50px;
 }
-
 .team-list {
   list-style: none;
   display: flex;
@@ -286,16 +294,6 @@ body {
   letter-spacing: 0.03em;
   color: #757575;
   padding-bottom: 30px;
-}
-
-.social-list,
-.footer-social-list {
-  list-style: none;
-  display: flex;
-  width: 206px;
-  padding-top: 20px;
-  justify-content: space-between;
-  margin: auto;
 }
 
 .social-list__link {
@@ -366,11 +364,9 @@ body {
   background-color: #2f303a;
   display: flex;
 }
-
 .footer .logo {
   padding-top: 60px;
 }
-
 .footer .logo > span {
   color: #ffffff;
 }
