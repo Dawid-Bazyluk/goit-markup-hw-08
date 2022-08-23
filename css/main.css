@@ -196,8 +196,7 @@ body {
 .lorem-list__item:not(:last-child) {
   margin-right: 30px;
 }
-
-.lorem__header {
+.lorem-list__header {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -205,8 +204,7 @@ body {
   text-transform: uppercase;
   margin-bottom: 10px;
 }
-
-.lorem__text {
+.lorem-list__text {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
