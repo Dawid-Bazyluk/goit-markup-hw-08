@@ -1,6 +1,58 @@
 .header {
   border-bottom: 1px solid #ececec;
   padding-bottom: 25px;
+  .header-navigation {
+    display: flex;
+    align-items: center;
+    padding-top: 32px;
+    position: relative;
+    &__agency,
+    &__portfolio,
+    &__contact {
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 1.14;
+      letter-spacing: 0.02em;
+      text-decoration: none;
+      color: $primaryTextColor;
+    }
+    &__agency,
+    &__portfolio {
+      margin-right: 46px;
+    }
+    &__agency:hover,
+    &__agency:focus,
+    &__portfolio:hover,
+    &__portfolio:focus,
+    &__contact:hover,
+    &__contact:focus {
+      color: $primaryColor;
+    }
+    &__agency--active::after {
+      content: "";
+      position: absolute;
+      bottom: -29px;
+      height: 4px;
+      border-radius: 2px;
+      width: 58px;
+      background-color: $primaryColor;
+      left: -1px;
+      cursor: default;
+      display: block;
+    }
+
+    &__portfolio--active::after {
+      content: "";
+      position: absolute;
+      bottom: -29px;
+      height: 4px;
+      border-radius: 2px;
+      width: 58px;
+      background-color: $primaryColor;
+      left: 99px;
+      cursor: default;
+    }
+  }
 }
 
 .logo {
@@ -13,63 +65,9 @@
   color: $primaryColor;
   margin-right: 93px;
   padding-top: 24px;
-}
-.logo > span {
-  color: #000000;
-}
-
-.header-navigation {
-  display: flex;
-  align-items: center;
-  padding-top: 32px;
-  position: relative;
-  &__agency,
-  &__portfolio,
-  &__contact {
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
-    text-decoration: none;
-    color: $primaryTextColor;
+  & > span {
+    color: #000000;
   }
-  &__agency,
-  &__portfolio {
-    margin-right: 46px;
-  }
-}
-
-.header-navigation__agency:hover,
-.header-navigation__agency:focus,
-.header-navigation__portfolio:hover,
-.header-navigation__portfolio:focus,
-.header-navigation__contact:hover,
-.header-navigation__contact:focus {
-  color: $primaryColor;
-}
-.header-navigation__agency--active::after {
-  content: "";
-  position: absolute;
-  bottom: -29px;
-  height: 4px;
-  border-radius: 2px;
-  width: 58px;
-  background-color: $primaryColor;
-  left: -1px;
-  cursor: default;
-  display: block;
-}
-
-.header-navigation__portfolio--active::after {
-  content: "";
-  position: absolute;
-  bottom: -29px;
-  height: 4px;
-  border-radius: 2px;
-  width: 58px;
-  background-color: $primaryColor;
-  left: 99px;
-  cursor: default;
 }
 
 .header-contact__mail,

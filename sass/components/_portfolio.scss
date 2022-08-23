@@ -22,9 +22,9 @@
       transition: $transition;
     }
   }
-}
-.portfolio-buttons-list__item:not(:last-child) {
-  margin-right: 8px;
+  &__item:not(:last-child) {
+    margin-right: 8px;
+  }
 }
 
 .project-pictures {

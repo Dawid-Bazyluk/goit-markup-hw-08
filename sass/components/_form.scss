@@ -107,15 +107,12 @@ textarea:focus {
   top: 46px;
   left: 15px;
 }
-.input:focus + .modal-form__icon-name {
-  fill: $primaryColor;
+@each $icon in name, phone, email {
+  .input:focus + .modal-form__icon-#{$icon} {
+    fill: $primaryColor;
+  }
 }
-.input:focus + .modal-form__icon-phone {
-  fill: $primaryColor;
-}
-.input:focus + .modal-form__icon-email {
-  fill: $primaryColor;
-}
+
 
 .modal-form__text-privacy {
   font-weight: 400;
