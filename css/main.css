@@ -650,15 +650,15 @@ textarea:focus {
   left: 15px;
 }
 
-.input:focus + .modal-form__icon-name {
+input:focus + .modal-form__icon-name {
   fill: #2196f3;
 }
 
-.input:focus + .modal-form__icon-phone {
+input:focus + .modal-form__icon-phone {
   fill: #2196f3;
 }
 
-.input:focus + .modal-form__icon-email {
+input:focus + .modal-form__icon-email {
   fill: #2196f3;
 }
 
