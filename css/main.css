@@ -253,9 +253,6 @@ body {
   border-radius: 4px;
   margin-bottom: 30px;
 }
-.lorem-list__item:not(:last-child) {
-  margin-right: 30px;
-}
 .lorem-list__header {
   font-weight: 700;
   font-size: 14px;
