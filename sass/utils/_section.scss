@@ -13,7 +13,7 @@
 
 @media screen and (min-width: 768px) {
   .container {
-    max-width: 768px;
+    max-width: 100%;
     padding: 0 15px;
     align-items: center;
     margin: 0 auto;
@@ -22,10 +22,14 @@
 
 @media screen and (min-width: 1200px) {
   .container {
-    max-width: 1200px;
+    max-width: 100%;
     padding: 0 15px;
     align-items: center;
     margin: 0 auto;
+    .section {
+      padding-top: 94px;
+      padding-bottom: 94px;
+    }
   }
 }
 
