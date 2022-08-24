@@ -33,7 +33,7 @@ body {
 }
 @media screen and (min-width: 1200px) {
   .container {
-    max-width: 100%;
+    max-width: 1200px;
     padding: 0 15px;
     align-items: center;
     margin: 0 auto;
@@ -222,44 +222,45 @@ body {
     color: #000000;
   }
 }*/
-.banner {
-  background-image: linear-gradient(to bottom, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/backgroundimgphone.jpg);
-  background-repeat: no-repeat;
-  background-size: 480px 400px;
-  background-position: center top;
-  z-index: 0;
-  padding: 118px 0;
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .banner {
+    background-image: linear-gradient(to bottom, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/backgroundimgphone.jpg);
+    background-repeat: no-repeat;
+    background-size: 480px 400px;
+    background-position: center top;
+    z-index: 0;
+    padding: 118px 0;
+  }
+  .banner__text {
+    font-weight: 900;
+    font-size: 26px;
+    line-height: 1.62;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #ffffff;
+    padding-bottom: 30px;
+    display: block;
+    text-align: center;
+    margin: auto;
+    width: 365px;
+    z-index: 1;
+  }
+  .banner__btn {
+    background: #2196f3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    border: none;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    cursor: pointer;
+    letter-spacing: 0.06em;
+    color: #ffffff;
+    padding: 10px 41px;
+    display: block;
+    margin: 0 auto;
+  }
 }
-.banner__text {
-  font-weight: 900;
-  font-size: 26px;
-  line-height: 1.62;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-  color: #ffffff;
-  padding-bottom: 30px;
-  display: block;
-  text-align: center;
-  margin: auto;
-  max-width: 365px;
-  z-index: 1;
-}
-.banner__btn {
-  background: #2196f3;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
-  border: none;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.87;
-  cursor: pointer;
-  letter-spacing: 0.06em;
-  color: #ffffff;
-  padding: 10px 41px;
-  display: block;
-  margin: 0 auto;
-}
-
 @media screen and (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
   .banner {
     background-image: linear-gradient(to bottom, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)) url(../images/backgroundimgphone@2x.jpg);
@@ -285,7 +286,7 @@ body {
     display: block;
     text-align: center;
     margin: auto;
-    max-width: 365px;
+    width: 365px;
     z-index: 1;
   }
   .banner__btn {
