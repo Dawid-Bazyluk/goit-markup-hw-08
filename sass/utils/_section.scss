@@ -1,6 +1,7 @@
 .container {
   max-width: 100%;
   padding: 0 15px;
+  
 }
 @media screen and (min-width: 480px) {
   .container {
@@ -25,6 +26,14 @@
   padding-top: 60px;
   padding-bottom: 60px;
 }
+
+.social-list-flex {
+  list-style: none;
+  display: flex;
+  width: 206px;
+  padding-top: 20px;
+  justify-content: space-between;
+  margin: auto;}
 /*
 .section {
   padding-top: 94px;

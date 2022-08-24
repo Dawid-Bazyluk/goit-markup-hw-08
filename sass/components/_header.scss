@@ -2,12 +2,12 @@
   border-bottom: 1px solid #ececec;
   max-width: 480px;
   margin: 0 auto;
-}
-.header-navigation,
-.header-contact__mail,
-.header-contact__icon,
-.header-contact__phone {
-  display: none;
+  &-navigation,
+  &-contact__mail,
+  &-contact__icon,
+  &-contact__phone {
+    display: none;
+  }
 }
 
 .logo {
