@@ -1,5 +1,31 @@
 .header {
   border-bottom: 1px solid #ececec;
+  max-width: 480px;
+  margin: 0 auto;
+}
+.header-navigation,
+.header-contact__mail,
+.header-contact__icon,
+.header-contact__phone {
+  display: none;
+}
+
+.logo {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.667;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  color: $primaryColor;
+
+  & > span {
+    color: #000000;
+  }
+}
+
+/*.header {
+  border-bottom: 1px solid #ececec;
   padding-bottom: 25px;
   .header-navigation {
     display: flex;
@@ -115,4 +141,4 @@
   & > span {
     color: #000000;
   }
-}
+}*/
