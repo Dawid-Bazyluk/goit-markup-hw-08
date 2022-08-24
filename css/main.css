@@ -11,8 +11,8 @@ body {
 }
 
 .container {
-  max-width: 100%;
-  padding: 0 15px;
+  width: 100%;
+  padding: 0 10px;
 }
 
 @media screen and (min-width: 480px) {
@@ -242,7 +242,7 @@ body {
     display: block;
     text-align: center;
     margin: auto;
-    width: 365px;
+    max-width: 365px;
     z-index: 1;
   }
   .banner__btn {
@@ -286,7 +286,7 @@ body {
     display: block;
     text-align: center;
     margin: auto;
-    width: 365px;
+    max-width: 365px;
     z-index: 1;
   }
   .banner__btn {
@@ -330,7 +330,7 @@ body {
     display: block;
     text-align: center;
     margin: auto;
-    width: 696px;
+    max-width: 696px;
     z-index: 1;
   }
   .banner__btn {
