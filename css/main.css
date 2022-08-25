@@ -393,8 +393,8 @@ body {
 @media screen and (min-width: 768px) {
   .lorem-list {
     list-style: none;
-    display: flex;
-    flex-wrap: wrap;
+    -moz-columns: 2;
+         columns: 2;
   }
   .lorem-list__icon {
     display: flex;
@@ -405,8 +405,15 @@ body {
     border-radius: 4px;
     margin-bottom: 30px;
   }
-  .lorem-list__item:not(:last-child) {
+  .lorem-list__item:first-child {
     margin-right: 30px;
+    margin-bottom: 30px;
+  }
+  .lorem-list__item:nth-child(2) {
+    margin-right: 30px;
+  }
+  .lorem-list__item:nth-child(3) {
+    margin-bottom: 30px;
   }
   .lorem-list__item {
     min-width: 354px;
@@ -424,6 +431,7 @@ body {
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: #757575;
+    max-width: 354px;
   }
 }
 /*
