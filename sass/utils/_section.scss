@@ -2,12 +2,21 @@
   width: 100%;
   padding: 0 10px;
 }
+.section {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
 @media screen and (min-width: 480px) {
   .container {
     max-width: 480px;
     padding: 0 15px;
     align-items: center;
     margin: 0 auto;
+  }
+  .section {
+    padding-top: 60px;
+    padding-bottom: 60px;
   }
 }
 
@@ -18,24 +27,22 @@
     align-items: center;
     margin: 0 auto;
   }
+  .section {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
 }
-
 @media screen and (min-width: 1200px) {
   .container {
     max-width: 1200px;
     padding: 0 15px;
     align-items: center;
     margin: 0 auto;
-    .section {
-      padding-top: 94px;
-      padding-bottom: 94px;
-    }
   }
-}
-
-.section {
-  padding-top: 60px;
-  padding-bottom: 60px;
+  .section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
 }
 
 .social-list-flex {

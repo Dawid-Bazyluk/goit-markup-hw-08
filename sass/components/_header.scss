@@ -1,12 +1,14 @@
-.header {
-  border-bottom: 1px solid #ececec;
-  max-width: 480px;
-  margin: 0 auto;
-  &-navigation,
-  &-contact__mail,
-  &-contact__icon,
-  &-contact__phone {
-    display: none;
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .header {
+    border-bottom: 1px solid #ececec;
+    max-width: 480px;
+    margin: 0 auto;
+    &-navigation,
+    &-contact__mail,
+    &-contact__icon,
+    &-contact__phone {
+      display: none;
+    }
   }
 }
 
