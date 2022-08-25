@@ -390,7 +390,7 @@ body {
     color: #757575;
   }
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 1199px) {
   .lorem-list {
     list-style: none;
     -moz-columns: 2;
@@ -434,11 +434,12 @@ body {
     max-width: 354px;
   }
 }
-/*
-.lorem-list {
-  list-style: none;
-
-  &__icon {
+@media screen and (min-width: 1200px) {
+  .lorem-list {
+    list-style: none;
+    display: flex;
+  }
+  .lorem-list__icon {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -446,11 +447,11 @@ body {
     background: #f5f4fa;
     border-radius: 4px;
     margin-bottom: 30px;
-      }
-  &__item:not(:last-child) {
+  }
+  .lorem-list__item:not(:last-child) {
     margin-right: 30px;
   }
-  &__header {
+  .lorem-list__header {
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
@@ -458,13 +459,13 @@ body {
     text-transform: uppercase;
     margin-bottom: 10px;
   }
-  &__text {
+  .lorem-list__text {
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
-    color: $textColorGrey;
+    color: #757575;
   }
-}*/
+}
 .about {
   display: none;
 }
