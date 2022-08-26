@@ -96,7 +96,7 @@ img {
   margin: auto;
 }
 */
-@media screen and (min-width: 320px) and (max-width: 767px) {
+@media screen and (min-width: 320px) and (max-width: 768px) {
   .header {
     border-bottom: 1px solid #ececec;
     max-width: 480px;
@@ -237,7 +237,7 @@ img {
     color: #000000;
   }
 }*/
-@media screen and (min-width: 320px) and (max-width: 767px) {
+@media screen and (min-width: 320px) and (max-width: 768px) {
   .banner {
     background-image: linear-gradient(to bottom, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/backgroundimgphone.jpg);
     background-repeat: no-repeat;
@@ -369,7 +369,7 @@ img {
     background-image: linear-gradient(to bottom, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)) url(../images/backgrounimg@2x.jpg);
   }
 }
-@media screen and (min-width: 320px) and (max-width: 767px) {
+@media screen and (min-width: 320px) and (max-width: 768px) {
   .lorem-list {
     list-style: none;
   }
@@ -525,7 +525,7 @@ img {
     width: 100%;
   }
 }
-@media screen and (min-width: 320px) and (max-width: 767px) {
+@media screen and (min-width: 320px) and (max-width: 768px) {
   .team {
     background-color: #f5f4fa;
     max-width: 480px;
@@ -727,7 +727,7 @@ img {
     fill: #fff;
   }
 }
-@media screen and (min-width: 320px) and (max-width: 767px) {
+@media screen and (min-width: 320px) and (max-width: 768px) {
   .clients-header {
     font-weight: 700;
     font-size: 28px;
