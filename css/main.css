@@ -751,10 +751,9 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 92px;
     border: 1px solid #afb1b8;
     border-radius: 4px;
-    width: 210px;
+    padding: 16px 52px;
   }
   .clients-list__item:hover, .clients-list__item:focus {
     border: 1px solid #2196f3;
@@ -772,9 +771,6 @@ img {
   }
   .clients-list__item:nth-child(5) {
     margin-bottom: 30px;
-  }
-  .clients-list__item:nth-child(-n+3) {
-    margin-right: 30px;
   }
   .clients-list__item:hover .clients-list__icon {
     fill: #2196f3;

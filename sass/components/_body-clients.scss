@@ -23,10 +23,9 @@
       display: flex;
       justify-content: center;
       align-items: center;
-      height: 92px;
       border: 1px solid $colorIcon;
       border-radius: 4px;
-      width: 210px;
+      padding: 16px 52px;
 
       &:hover,
       &:focus {
@@ -35,6 +34,7 @@
         transition: $transition;
       }
     }
+
     &__item:nth-child(1) {
       margin-bottom: 30px;
     }
@@ -46,9 +46,6 @@
     }
     &__item:nth-child(5) {
       margin-bottom: 30px;
-    }
-    &__item:nth-child(-n + 3) {
-      margin-right: 30px;
     }
   }
 
