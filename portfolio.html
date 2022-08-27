@@ -19,12 +19,10 @@
       <div class="container flex__container">
         <a class="logo" href="index.html">Web<span>Studio</span> </a>
         <nav class="header-navigation">
+          <a class="header-navigation__agency" href="index.html">Agencja</a>
           <a
-            class="header-navigation__agency "
-            href="index.html"
-            >Agencja</a
-          >
-          <a class="header-navigation__portfolio header-navigation__portfolio--active" href="portfolio.html"
+            class="header-navigation__portfolio header-navigation__portfolio--active"
+            href="portfolio.html"
             >Portfolio</a
           >
           <a class="header-navigation__contact" href="#">Kontakt</a>
@@ -44,23 +42,33 @@
         </div>
       </div>
     </header>
-    <!-- <main class="section">
+    <main class="section">
       <div class="container">
         <ul class="portfolio-buttons-list">
           <li class="portfolio-buttons-list__item">
-            <button class="portfolio-buttons-list__btn" type="button">Wszystkie</button>
+            <button class="portfolio-buttons-list__btn" type="button">
+              Wszystkie
+            </button>
           </li>
           <li class="portfolio-buttons-list__item">
-            <button class="portfolio-buttons-list__btn" type="button">Strony</button>
+            <button class="portfolio-buttons-list__btn" type="button">
+              Strony
+            </button>
           </li>
           <li class="portfolio-buttons-list__item">
-            <button class="portfolio-buttons-list__btn" type="button">Aplikacje</button>
+            <button class="portfolio-buttons-list__btn" type="button">
+              Aplikacje
+            </button>
           </li>
           <li class="portfolio-buttons-list__item">
-            <button class="portfolio-buttons-list__btn" type="button">Dizajn</button>
+            <button class="portfolio-buttons-list__btn" type="button">
+              Dizajn
+            </button>
           </li>
           <li class="portfolio-buttons-list__item">
-            <button class="portfolio-buttons-list__btn" type="button">Marketing</button>
+            <button class="portfolio-buttons-list__btn" type="button">
+              Marketing
+            </button>
           </li>
         </ul>
       </div>
@@ -71,10 +79,14 @@
               <div class="project-pictures__figure">
                 <img
                   class="project-pictures__img"
-                  src="images/technocrack.jpg"
+                  src="images/1technocrack480.jpg"
                   alt="laptop, a na nim przykład strony internetowej"
-                  width="370"
-                  height="294"
+                  srcset="
+                    images/1technocrack480.jpg 450w,
+                    images/1johndoe800.jpg     354w,
+                    images/1johndoe1200.jpg    270w
+                  "
+                  sizes="(min-width: 1200px) 270px,(min-width: 768px) 354px, (min-width: 320px) 450px, 100vw"
                 />
                 <p class="project-pictures__overlay">
                   Technocrack jest popularną platformą wykorzystywaną do
@@ -94,10 +106,14 @@
               <div class="project-pictures__figure">
                 <img
                   class="project-pictures__img"
-                  src="images/grafikagoldenstar.jpg"
+                  src="images/2grafikagoldenstar480.jpg"
                   alt="dwóch graczy koszykówki jako grafika"
-                  width="370"
-                  height="294"
+                  srcset="
+                    images/2grafikagoldenstar480.jpg 450w,
+                    images/1johndoe800.jpg     354w,
+                    images/1johndoe1200.jpg    270w
+                  "
+                  sizes="(min-width: 1200px) 270px,(min-width: 768px) 354px, (min-width: 320px) 450px, 100vw"
                 />
                 <p class="project-pictures__overlay">
                   Technocrack jest popularną platformą wykorzystywaną do
@@ -107,7 +123,9 @@
                 </p>
               </div>
               <figcaption class="project-pictures__category">
-                <h4 class="project-pictures__name">Grafika New Orlean vs Golden Star</h4>
+                <h4 class="project-pictures__name">
+                  Grafika New Orlean vs Golden Star
+                </h4>
                 Dizajn
               </figcaption>
             </figure>
@@ -117,10 +135,14 @@
               <div class="project-pictures__figure">
                 <img
                   class="project-pictures__img"
-                  src="images/restauracjaseafood.jpg"
+                  src="images/3restauracjaseafood480.jpg"
                   alt="logo restauracji, napis na tle ryby"
-                  width="370"
-                  height="294"
+                  srcset="
+                    images/3restauracjaseafood480.jpg 450w,
+                    images/1johndoe800.jpg     354w,
+                    images/1johndoe1200.jpg    270w
+                  "
+                  sizes="(min-width: 1200px) 270px,(min-width: 768px) 354px, (min-width: 320px) 450px, 100vw"
                 />
                 <p class="project-pictures__overlay">
                   Technocrack jest popularną platformą wykorzystywaną do
@@ -140,10 +162,14 @@
               <div class="project-pictures__figure">
                 <img
                   class="project-pictures__img"
-                  src="images/projektprime.jpg"
+                  src="images/4projektprime480.jpg"
                   alt="duże, czrne słuchawki"
-                  width="370"
-                  height="294"
+                  srcset="
+                    images/4projektprime480.jpg 450w,
+                    images/1johndoe800.jpg     354w,
+                    images/1johndoe1200.jpg    270w
+                  "
+                  sizes="(min-width: 1200px) 270px,(min-width: 768px) 354px, (min-width: 320px) 450px, 100vw"
                 />
                 <p class="project-pictures__overlay">
                   Technocrack jest popularną platformą wykorzystywaną do
@@ -163,10 +189,14 @@
               <div class="project-pictures__figure">
                 <img
                   class="project-pictures__img"
-                  src="images/projektboxes.jpg"
+                  src="images/5projektboxes480.jpg"
                   alt="grafika przedstawiająca dwa kartony"
-                  width="370"
-                  height="294"
+                  srcset="
+                    images/5projektboxes480.jpg 450w,
+                    images/1johndoe800.jpg     354w,
+                    images/1johndoe1200.jpg    270w
+                  "
+                  sizes="(min-width: 1200px) 270px,(min-width: 768px) 354px, (min-width: 320px) 450px, 100vw"
                 />
                 <p class="project-pictures__overlay">
                   Technocrack jest popularną platformą wykorzystywaną do
@@ -186,10 +216,14 @@
               <div class="project-pictures__figure">
                 <img
                   class="project-pictures__img"
-                  src="images/InspirationhasnoBorders.jpg"
+                  src="images/6InspirationhasnoBorders480.jpg"
                   alt="monitor firmy apple"
-                  width="370"
-                  height="294"
+                  srcset="
+                    images/6InspirationhasnoBorders480.jpg 450w,
+                    images/1johndoe800.jpg     354w,
+                    images/1johndoe1200.jpg    270w
+                  "
+                  sizes="(min-width: 1200px) 270px,(min-width: 768px) 354px, (min-width: 320px) 450px, 100vw"
                 />
                 <p class="project-pictures__overlay">
                   Technocrack jest popularną platformą wykorzystywaną do
@@ -199,7 +233,9 @@
                 </p>
               </div>
               <figcaption class="project-pictures__category">
-                <h4 class="project-pictures__name">Inspiration has no Borders</h4>
+                <h4 class="project-pictures__name">
+                  Inspiration has no Borders
+                </h4>
                 Strona internetowa
               </figcaption>
             </figure>
@@ -209,10 +245,14 @@
               <div class="project-pictures__figure">
                 <img
                   class="project-pictures__img"
-                  src="images/MagazynLimitedEdition.jpg"
+                  src="images/7MagazynLimitedEdition480.jpg"
                   alt="otwarta kasiążka"
-                  width="370"
-                  height="294"
+                  srcset="
+                    images/7MagazynLimitedEdition480.jpg 450w,
+                    images/1johndoe800.jpg     354w,
+                    images/1johndoe1200.jpg    270w
+                  "
+                  sizes="(min-width: 1200px) 270px,(min-width: 768px) 354px, (min-width: 320px) 450px, 100vw"
                 />
                 <p class="project-pictures__overlay">
                   Technocrack jest popularną platformą wykorzystywaną do
@@ -232,10 +272,14 @@
               <div class="project-pictures__figure">
                 <img
                   class="project-pictures__img"
-                  src="images/ProjektLAB.jpg"
+                  src="images/8ProjektLAB480.jpg"
                   alt="etykieta z napisem LAB"
-                  width="370"
-                  height="294"
+                  srcset="
+                    images/8ProjektLAB480.jpg 450w,
+                    images/1johndoe800.jpg     354w,
+                    images/1johndoe1200.jpg    270w
+                  "
+                  sizes="(min-width: 1200px) 270px,(min-width: 768px) 354px, (min-width: 320px) 450px, 100vw"
                 />
                 <p class="project-pictures__overlay">
                   Technocrack jest popularną platformą wykorzystywaną do
@@ -255,10 +299,14 @@
               <div class="project-pictures__figure">
                 <img
                   class="project-pictures__img"
-                  src="images/GrowingBusiness.jpg"
+                  src="images/9GrowingBusiness480.jpg"
                   alt="ręce na laptopie"
-                  width="370"
-                  height="294"
+                  srcset="
+                    images/9GrowingBusiness480.jpg 450w,
+                    images/1johndoe800.jpg     354w,
+                    images/1johndoe1200.jpg    270w
+                  "
+                  sizes="(min-width: 1200px) 270px,(min-width: 768px) 354px, (min-width: 320px) 450px, 100vw"
                 />
                 <p class="project-pictures__overlay">
                   Technocrack jest popularną platformą wykorzystywaną do
@@ -302,53 +350,34 @@
             <ul class="social-list-flex">
               <li class="footer-social-list__item">
                 <a href="#" class="footer-social-list__link"
-                  ><svg
-                    class="footer-social-list__icon"
-                    width="44"
-                    height="44"
-                  >
+                  ><svg class="footer-social-list__icon" width="44" height="44">
                     <use href="images/icons.svg#icon-instagram"></use></svg
                 ></a>
               </li>
               <li class="footer-social-list__item">
                 <a href="#" class="footer-social-list__link"
-                  ><svg
-                    class="footer-social-list__icon"
-                    width="44"
-                    height="44"
-                  >
+                  ><svg class="footer-social-list__icon" width="44" height="44">
                     <use href="images/icons.svg#icon-twitter"></use></svg
                 ></a>
               </li>
               <li class="footer-social-list__item">
                 <a href="#" class="footer-social-list__link"
-                  ><svg
-                    class="footer-social-list__icon"
-                    width="44"
-                    height="44"
-                  >
+                  ><svg class="footer-social-list__icon" width="44" height="44">
                     <use href="images/icons.svg#icon-facebook"></use></svg
                 ></a>
               </li>
               <li class="footer-social-list__item">
                 <a href="#" class="footer-social-list__link"
-                  ><svg
-                    class="footer-social-list__icon"
-                    width="44"
-                    height="44"
-                  >
+                  ><svg class="footer-social-list__icon" width="44" height="44">
                     <use href="images/icons.svg#icon-linkedin"></use></svg
                 ></a>
               </li>
-              
             </ul>
           </li>
           <li class="footer-list__item">
             <form class="footer-form">
               <label>
-                <span class="footer-text"
-                  >Zapisz się do newslettera</span
-                >
+                <span class="footer-text">Zapisz się do newslettera</span>
                 <input
                   class="footer-form__email"
                   type="email"
@@ -366,6 +395,6 @@
           </li>
         </ul>
       </div>
-    </footer> -->
+    </footer>
   </body>
 </html>
