@@ -132,6 +132,9 @@ img {
   .header-right {
     margin-left: auto;
   }
+  .header-navigation {
+    margin-left: 83px;
+  }
   .header .header-navigation {
     display: flex;
     align-items: center;
@@ -215,6 +218,108 @@ img {
     letter-spacing: 0.03em;
     text-decoration: none;
     color: #2196f3;
+    padding-top: 24px;
+  }
+  .logo > span {
+    color: #000000;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .flex__container {
+    display: flex;
+  }
+  .header {
+    border-bottom: 1px solid #ececec;
+    padding-bottom: 25px;
+  }
+  .header-right {
+    display: flex;
+    margin-left: auto;
+  }
+  .header .header-navigation {
+    display: flex;
+    align-items: center;
+    padding-top: 32px;
+    position: relative;
+  }
+  .header .header-navigation__agency, .header .header-navigation__portfolio, .header .header-navigation__contact {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    color: #212121;
+  }
+  .header .header-navigation__agency, .header .header-navigation__portfolio {
+    margin-right: 46px;
+  }
+  .header .header-navigation__agency:hover, .header .header-navigation__agency:focus, .header .header-navigation__portfolio:hover, .header .header-navigation__portfolio:focus, .header .header-navigation__contact:hover, .header .header-navigation__contact:focus {
+    color: #2196f3;
+  }
+  .header .header-navigation__agency--active::after {
+    content: "";
+    position: absolute;
+    bottom: -29px;
+    height: 4px;
+    border-radius: 2px;
+    width: 58px;
+    background-color: #2196f3;
+    left: -1px;
+    cursor: default;
+    display: block;
+  }
+  .header .header-navigation__portfolio--active::after {
+    content: "";
+    position: absolute;
+    bottom: -29px;
+    height: 4px;
+    border-radius: 2px;
+    width: 58px;
+    background-color: #2196f3;
+    left: 99px;
+    cursor: default;
+  }
+  .header-contact__mail, .header-contact__phone {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: #757575;
+    text-decoration: none;
+  }
+  .header-contact__icon {
+    margin-right: 10px;
+    fill: #757575;
+  }
+  .header-contact__mail {
+    margin-left: auto;
+    margin-right: 50px;
+    padding-top: 32px;
+  }
+  .header-contact__mail:hover .header-contact__icon {
+    fill: #2196f3;
+  }
+  .header-contact__phone:hover .header-contact__icon {
+    fill: #2196f3;
+  }
+  .header-contact__phone {
+    display: flex;
+    align-items: center;
+  }
+  .header-contact__mail:hover, .header-contact__mail:focus, .header-contact__phone:hover, .header-contact__phone:focus {
+    color: #2196f3;
+  }
+  .header-contact__phone {
+    padding-top: 32px;
+  }
+  .logo {
+    font-family: "Raleway";
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    color: #2196f3;
     margin-right: 93px;
     padding-top: 24px;
   }
@@ -222,124 +327,6 @@ img {
     color: #000000;
   }
 }
-/*.header {
-  border-bottom: 1px solid #ececec;
-  padding-bottom: 25px;
-  .header-navigation {
-    display: flex;
-    align-items: center;
-    padding-top: 32px;
-    position: relative;
-    &__agency,
-    &__portfolio,
-    &__contact {
-      font-weight: 500;
-      font-size: 14px;
-      line-height: 1.14;
-      letter-spacing: 0.02em;
-      text-decoration: none;
-      color: $primaryTextColor;
-    }
-    &__agency,
-    &__portfolio {
-      margin-right: 46px;
-    }
-    &__agency:hover,
-    &__agency:focus,
-    &__portfolio:hover,
-    &__portfolio:focus,
-    &__contact:hover,
-    &__contact:focus {
-      color: $primaryColor;
-    }
-    &__agency--active::after {
-      content: "";
-      position: absolute;
-      bottom: -29px;
-      height: 4px;
-      border-radius: 2px;
-      width: 58px;
-      background-color: $primaryColor;
-      left: -1px;
-      cursor: default;
-      display: block;
-    }
-
-    &__portfolio--active::after {
-      content: "";
-      position: absolute;
-      bottom: -29px;
-      height: 4px;
-      border-radius: 2px;
-      width: 58px;
-      background-color: $primaryColor;
-      left: 99px;
-      cursor: default;
-    }
-  }
-  &-contact__mail,
-&-contact__phone {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-  color: $textColorGrey;
-  text-decoration: none;
-}
-
-&-contact__icon {
-  margin-right: 10px;
-  fill: $textColorGrey;
-}
-
-&-contact__mail {
-  margin-left: auto;
-  margin-right: 50px;
-  padding-top: 32px;
-}
-
-&-contact__mail:hover {
-  .header-contact__icon {
-    fill: $primaryColor;
-  }
-}
-&-contact__phone:hover {
-  .header-contact__icon {
-    fill: $primaryColor;
-  }
-}
-
-&-contact__phone {
-  display: flex;
-  align-items: center;
-}
-
-&-contact__mail:hover,
-&-contact__mail:focus,
-&-contact__phone:hover,
-&-contact__phone:focus {
-  color: $primaryColor;
-}
-
-&-contact__phone {
-  padding-top: 32px;
-}
-}
-
-.logo {
-  font-family: "Raleway";
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
-  letter-spacing: 0.03em;
-  text-decoration: none;
-  color: $primaryColor;
-  margin-right: 93px;
-  padding-top: 24px;
-  & > span {
-    color: #000000;
-  }
-}*/
 @media screen and (min-width: 320px) and (max-width: 767px) {
   .banner {
     background-image: linear-gradient(to bottom, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/backgroundimgphone.jpg);

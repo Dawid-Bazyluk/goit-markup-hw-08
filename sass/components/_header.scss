@@ -31,7 +31,12 @@
     display: flex;
   }
   .header {
-    &-right {margin-left: auto;}
+    &-right {
+      margin-left: auto;
+    }
+    &-navigation {
+      margin-left: 83px;
+    }
     border-bottom: 1px solid #ececec;
     padding-bottom: 15px;
     max-width: 768px;
@@ -144,7 +149,6 @@
     letter-spacing: 0.03em;
     text-decoration: none;
     color: $primaryColor;
-    margin-right: 93px;
     padding-top: 24px;
     & > span {
       color: #000000;
@@ -152,121 +156,130 @@
   }
 }
 
-/*.header {
-  border-bottom: 1px solid #ececec;
-  padding-bottom: 25px;
-  .header-navigation {
+@media screen and (min-width: 1200px) {
+  .flex__container {
     display: flex;
-    align-items: center;
-    padding-top: 32px;
-    position: relative;
-    &__agency,
-    &__portfolio,
-    &__contact {
+  }
+  .header {
+    &-right {
+      display: flex;
+      margin-left: auto;
+    }
+    border-bottom: 1px solid #ececec;
+    padding-bottom: 25px;
+    .header-navigation {
+      display: flex;
+      align-items: center;
+      padding-top: 32px;
+      position: relative;
+      &__agency,
+      &__portfolio,
+      &__contact {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.02em;
+        text-decoration: none;
+        color: $primaryTextColor;
+      }
+      &__agency,
+      &__portfolio {
+        margin-right: 46px;
+      }
+      &__agency:hover,
+      &__agency:focus,
+      &__portfolio:hover,
+      &__portfolio:focus,
+      &__contact:hover,
+      &__contact:focus {
+        color: $primaryColor;
+      }
+      &__agency--active::after {
+        content: "";
+        position: absolute;
+        bottom: -29px;
+        height: 4px;
+        border-radius: 2px;
+        width: 58px;
+        background-color: $primaryColor;
+        left: -1px;
+        cursor: default;
+        display: block;
+      }
+
+      &__portfolio--active::after {
+        content: "";
+        position: absolute;
+        bottom: -29px;
+        height: 4px;
+        border-radius: 2px;
+        width: 58px;
+        background-color: $primaryColor;
+        left: 99px;
+        cursor: default;
+      }
+    }
+    &-contact__mail,
+    &-contact__phone {
       font-weight: 500;
       font-size: 14px;
       line-height: 1.14;
       letter-spacing: 0.02em;
+      color: $textColorGrey;
       text-decoration: none;
-      color: $primaryTextColor;
     }
-    &__agency,
-    &__portfolio {
-      margin-right: 46px;
+
+    &-contact__icon {
+      margin-right: 10px;
+      fill: $textColorGrey;
     }
-    &__agency:hover,
-    &__agency:focus,
-    &__portfolio:hover,
-    &__portfolio:focus,
-    &__contact:hover,
-    &__contact:focus {
+
+    &-contact__mail {
+      margin-left: auto;
+      margin-right: 50px;
+      padding-top: 32px;
+    }
+
+    &-contact__mail:hover {
+      .header-contact__icon {
+        fill: $primaryColor;
+      }
+    }
+    &-contact__phone:hover {
+      .header-contact__icon {
+        fill: $primaryColor;
+      }
+    }
+
+    &-contact__phone {
+      display: flex;
+      align-items: center;
+    }
+
+    &-contact__mail:hover,
+    &-contact__mail:focus,
+    &-contact__phone:hover,
+    &-contact__phone:focus {
       color: $primaryColor;
     }
-    &__agency--active::after {
-      content: "";
-      position: absolute;
-      bottom: -29px;
-      height: 4px;
-      border-radius: 2px;
-      width: 58px;
-      background-color: $primaryColor;
-      left: -1px;
-      cursor: default;
-      display: block;
-    }
 
-    &__portfolio--active::after {
-      content: "";
-      position: absolute;
-      bottom: -29px;
-      height: 4px;
-      border-radius: 2px;
-      width: 58px;
-      background-color: $primaryColor;
-      left: 99px;
-      cursor: default;
+    &-contact__phone {
+      padding-top: 32px;
     }
   }
-  &-contact__mail,
-&-contact__phone {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-  color: $textColorGrey;
-  text-decoration: none;
-}
 
-&-contact__icon {
-  margin-right: 10px;
-  fill: $textColorGrey;
-}
-
-&-contact__mail {
-  margin-left: auto;
-  margin-right: 50px;
-  padding-top: 32px;
-}
-
-&-contact__mail:hover {
-  .header-contact__icon {
-    fill: $primaryColor;
+  .logo {
+    font-family: "Raleway";
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    color: $primaryColor;
+    margin-right: 93px;
+    padding-top: 24px;
+    & > span {
+      color: #000000;
+    }
   }
 }
-&-contact__phone:hover {
-  .header-contact__icon {
-    fill: $primaryColor;
-  }
-}
-
-&-contact__phone {
-  display: flex;
-  align-items: center;
-}
-
-&-contact__mail:hover,
-&-contact__mail:focus,
-&-contact__phone:hover,
-&-contact__phone:focus {
-  color: $primaryColor;
-}
-
-&-contact__phone {
-  padding-top: 32px;
-}
-}
-
-.logo {
-  font-family: "Raleway";
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
-  letter-spacing: 0.03em;
-  text-decoration: none;
-  color: $primaryColor;
-  margin-right: 93px;
-  padding-top: 24px;
-  & > span {
-    color: #000000;
-  }
-}*/
