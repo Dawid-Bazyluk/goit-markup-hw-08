@@ -1879,7 +1879,7 @@ textarea:focus {
   .portfolio-buttons-list {
     list-style: none;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     flex-wrap: wrap;
   }
   .portfolio-buttons-list__btn {
@@ -1890,7 +1890,7 @@ textarea:focus {
     text-align: center;
     letter-spacing: 0.03em;
     padding: 6px 22px;
-    margin-bottom: 56px;
+    margin-bottom: 15px;
     border: none;
   }
   .portfolio-buttons-list__btn:hover, .portfolio-buttons-list__btn:focus {
