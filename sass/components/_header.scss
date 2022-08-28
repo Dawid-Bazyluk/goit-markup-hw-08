@@ -49,13 +49,14 @@
   .menu-container .menu-toggle {
     top: 16px;
     color: black;
+    position: relative;
+    top: -45px;
   }
 
   .mobile-menu {
     padding: 0;
     margin: 0;
     list-style: none;
-    
   }
 
   .mobile-menu .link {
@@ -69,6 +70,41 @@
     line-height: 47px;
     letter-spacing: 0.02em;
     color: $primaryTextColor;
+  }
+  .social-modal {
+    &__link {
+      padding: 0 10px;
+    }
+    &__link:not(:last-child) {
+      border-right: 1px solid rgba(33, 33, 33, 0.2);
+    }
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    margin-top: 50px;
+  }
+
+  .address-modal {
+    margin-top: 180px;
+    margin-bottom: 32px;
+    &__email {
+      font-style: normal;
+      font-weight: 500;
+      font-size: 24px;
+      line-height: 1.666;
+      letter-spacing: 0.02em;
+      color: $textColorGrey;
+      text-decoration: none;
+    }
+    &__phone {
+      font-style: normal;
+      font-weight: 500;
+      font-size: 34px;
+      line-height: 1.176;
+      letter-spacing: 0.02em;
+      color: $primaryColor;
+      margin-bottom: 32px;
+    }
   }
 
   .logo {
