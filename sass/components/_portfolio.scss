@@ -153,11 +153,11 @@
     height: 100%;
     background: $primaryColor;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 100%;
     line-height: 1.56;
     letter-spacing: 0.03em;
     color: #ffffff;
-    padding: 49px 45px 49px 24px;
+    padding:49px 24px;
     transform: translate(0, 105%);
     transition: $transition;
   }
