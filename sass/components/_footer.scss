@@ -172,7 +172,9 @@
     }
     &__item:nth-child(2) {
       display: inline-table;
-      margin-left: 144px;
+      position: sticky;
+      left: 100%;
+      margin-right: 89px;
     }
   }
   .bottom-social {
