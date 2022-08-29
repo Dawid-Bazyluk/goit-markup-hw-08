@@ -2179,6 +2179,9 @@ textarea:focus {
   }
 }
 @media screen and (min-width: 1200px) {
+  .section-portfolio {
+    padding-top: 56px;
+  }
   .portfolio-buttons-list {
     list-style: none;
     display: flex;
@@ -2192,7 +2195,6 @@ textarea:focus {
     text-align: center;
     letter-spacing: 0.03em;
     padding: 6px 22px;
-    margin-bottom: 56px;
     border: none;
   }
   .portfolio-buttons-list__btn:hover, .portfolio-buttons-list__btn:focus {
