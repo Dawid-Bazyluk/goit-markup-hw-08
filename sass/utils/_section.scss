@@ -11,6 +11,9 @@
 .flex__container {
   display: flex;
 }
+.button-hover:hover {
+  fill: $primaryColor;
+}
 
 @media screen and (min-width: 480px) {
   .container {

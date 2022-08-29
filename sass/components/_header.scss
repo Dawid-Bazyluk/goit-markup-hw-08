@@ -73,6 +73,9 @@
     letter-spacing: 0.02em;
     color: $primaryTextColor;
   }
+  .mobile-menu .link:hover {
+    color: $primaryColor;
+  }
   .social-modal {
     &__link {
       padding: 0 10px;
@@ -138,6 +141,9 @@
     display: flex;
   }
   .menu-toggle {
+    display: none;
+  }
+  .menu-container {
     display: none;
   }
   .header {
@@ -271,6 +277,9 @@
     display: flex;
   }
   .menu-toggle {
+    display: none;
+  }
+  .menu-container {
     display: none;
   }
   .header {

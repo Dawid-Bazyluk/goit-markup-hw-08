@@ -30,6 +30,10 @@ img {
   display: flex;
 }
 
+.button-hover:hover {
+  fill: #2196f3;
+}
+
 @media screen and (min-width: 480px) {
   .container {
     max-width: 480px;
@@ -167,6 +171,9 @@ img {
     letter-spacing: 0.02em;
     color: #212121;
   }
+  .mobile-menu .link:hover {
+    color: #2196f3;
+  }
   .social-modal {
     display: flex;
     justify-content: space-around;
@@ -228,6 +235,9 @@ img {
     display: flex;
   }
   .menu-toggle {
+    display: none;
+  }
+  .menu-container {
     display: none;
   }
   .header {
@@ -336,6 +346,9 @@ img {
     display: flex;
   }
   .menu-toggle {
+    display: none;
+  }
+  .menu-container {
     display: none;
   }
   .header {
