@@ -3,6 +3,7 @@
     border-bottom: 1px solid #ececec;
     max-width: 480px;
     margin: 0 auto;
+    padding: 10px 0;
     &-navigation,
     &-contact__mail,
     &-contact__icon,
@@ -47,10 +48,10 @@
   }
 
   .menu-container .menu-toggle {
-    top: 16px;
-    color: black;
-    position: relative;
-    top: -45px;
+    color: #000;
+    position: absolute;
+    left: 436px;
+    top: 0px;
   }
 
   .mobile-menu {
@@ -118,6 +119,7 @@
       letter-spacing: 0.02em;
       color: $primaryColor;
       margin-bottom: 32px;
+      text-decoration: none;
     }
   }
 

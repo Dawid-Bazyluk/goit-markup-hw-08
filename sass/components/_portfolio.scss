@@ -130,7 +130,9 @@
     flex-wrap: wrap;
     row-gap: 30px;
     column-gap: 30px;
-    &__item{max-width: 354px;}
+    &__item {
+      max-width: 354px;
+    }
     &__name {
       font-weight: 700;
       font-size: 18px;
