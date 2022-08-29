@@ -221,6 +221,11 @@
       transition: $transition;
     }
   }
+  .footer-social-list__link:focus {
+    background: $primaryColor;
+    border-radius: 50px;
+    transition: $transition;
+  }
 
   .footer-social-list__link {
     display: flex;
@@ -345,6 +350,11 @@
       border-radius: 50px;
       transition: $transition;
     }
+  }
+  .footer-social-list__link:focus {
+    background: $primaryColor;
+    border-radius: 50px;
+    transition: $transition;
   }
 
   .footer-social-list__link {
