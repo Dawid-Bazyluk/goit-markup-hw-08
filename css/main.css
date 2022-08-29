@@ -150,22 +150,16 @@ img {
   .menu-container .menu-toggle {
     color: #000;
     position: absolute;
-    left: 436px;
-    top: 0px;
+    left: 425px;
+    top: 10px;
   }
   .mobile-menu {
-    padding: 0;
-    margin: 0;
     list-style: none;
-    top: 20px;
-    position: absolute;
   }
   .mobile-menu .link {
-    display: block;
-    padding: 10px;
+    display: flex;
+    padding-bottom: 32px;
     text-decoration: none;
-    font-family: "Roboto";
-    font-style: normal;
     font-weight: 500;
     font-size: 40px;
     line-height: 47px;
@@ -177,13 +171,11 @@ img {
   }
   .social-modal {
     display: flex;
-    justify-content: space-around;
     list-style: none;
-    margin-top: 50px;
+    margin-top: 64px;
   }
   .social-modal__link {
     padding: 0 10px;
-    margin-top: 64px;
   }
   .social-modal__link:not(:last-child) {
     border-right: 1px solid rgba(33, 33, 33, 0.2);
@@ -197,7 +189,7 @@ img {
     color: #2196f3;
   }
   .address-modal {
-    margin-top: 306px;
+    margin-top: 302px;
     margin-bottom: 32px;
   }
   .address-modal__email {
