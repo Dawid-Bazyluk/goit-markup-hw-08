@@ -1073,6 +1073,9 @@ img {
   }
 }
 @media screen and (min-width: 320px) and (max-width: 767px) {
+  .footer-form > label {
+    margin: 0;
+  }
   .footer {
     background-color: #2f303a;
     display: flex;

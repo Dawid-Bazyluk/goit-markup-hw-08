@@ -1,4 +1,5 @@
 @media screen and (min-width: 320px) and (max-width: 767px) {
+  .footer-form > label  {margin: 0;}
   .footer {
     background-color: $primaryBackground;
     display: flex;
