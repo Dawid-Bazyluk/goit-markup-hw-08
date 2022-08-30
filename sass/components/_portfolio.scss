@@ -230,6 +230,8 @@
     flex-wrap: wrap;
     justify-content: space-between;
     row-gap: 30px;
+    &__item {
+      max-width: 370px;}
     &__name {
       font-weight: 700;
       font-size: 18px;

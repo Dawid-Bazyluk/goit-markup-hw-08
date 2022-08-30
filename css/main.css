@@ -2228,6 +2228,9 @@ textarea:focus {
     justify-content: space-between;
     row-gap: 30px;
   }
+  .project-pictures__item {
+    max-width: 370px;
+  }
   .project-pictures__name {
     font-weight: 700;
     font-size: 18px;
