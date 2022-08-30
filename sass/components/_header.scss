@@ -56,9 +56,10 @@
 
   .mobile-menu {
     list-style: none;
+    &__items:nth-child(2) {padding: 32px 0;};
   }
+  
   .link {
-    padding-bottom: 32px;
     text-decoration: none;
     font-weight: 500;
     font-size: 40px;
@@ -66,7 +67,9 @@
     letter-spacing: 0.02em;
     color: $primaryTextColor;
   }
-  .link-active {color: $primaryColor;}
+  .link-active {
+    color: $primaryColor;
+  }
   .mobile-menu .link {
     display: flex;
   }
@@ -145,18 +148,17 @@
   .header {
     &-right {
       margin-left: auto;
+      padding: 21px;
     }
     &-navigation {
       margin-left: 83px;
     }
     border-bottom: 1px solid #ececec;
-    padding-bottom: 15px;
     max-width: 768px;
     margin: 0 auto;
     .header-navigation {
       display: flex;
       align-items: center;
-      padding-top: 32px;
       position: relative;
       &__agency,
       &__portfolio,
@@ -183,7 +185,7 @@
       &__agency--active::after {
         content: "";
         position: absolute;
-        bottom: -29px;
+        bottom: -35px;
         height: 4px;
         border-radius: 2px;
         width: 58px;
@@ -196,7 +198,7 @@
       &__portfolio--active::after {
         content: "";
         position: absolute;
-        bottom: -29px;
+        bottom: -35px;
         height: 4px;
         border-radius: 2px;
         width: 58px;
@@ -220,11 +222,6 @@
       margin-right: 10px;
       fill: $textColorGrey;
     }
-
-    &-contact__mail {
-      padding-top: 32px;
-    }
-
     &-contact__mail:hover {
       .header-contact__icon {
         fill: $primaryColor;
@@ -261,7 +258,6 @@
     letter-spacing: 0.03em;
     text-decoration: none;
     color: $primaryColor;
-    padding-top: 24px;
     & > span {
       color: #000000;
     }

@@ -160,8 +160,10 @@ img {
   .mobile-menu {
     list-style: none;
   }
+  .mobile-menu__items:nth-child(2) {
+    padding: 32px 0;
+  }
   .link {
-    padding-bottom: 32px;
     text-decoration: none;
     font-weight: 500;
     font-size: 40px;
@@ -245,12 +247,12 @@ img {
   }
   .header {
     border-bottom: 1px solid #ececec;
-    padding-bottom: 15px;
     max-width: 768px;
     margin: 0 auto;
   }
   .header-right {
     margin-left: auto;
+    padding: 21px;
   }
   .header-navigation {
     margin-left: 83px;
@@ -258,7 +260,6 @@ img {
   .header .header-navigation {
     display: flex;
     align-items: center;
-    padding-top: 32px;
     position: relative;
   }
   .header .header-navigation__agency, .header .header-navigation__portfolio, .header .header-navigation__contact {
@@ -278,7 +279,7 @@ img {
   .header .header-navigation__agency--active::after {
     content: "";
     position: absolute;
-    bottom: -29px;
+    bottom: -35px;
     height: 4px;
     border-radius: 2px;
     width: 58px;
@@ -290,7 +291,7 @@ img {
   .header .header-navigation__portfolio--active::after {
     content: "";
     position: absolute;
-    bottom: -29px;
+    bottom: -35px;
     height: 4px;
     border-radius: 2px;
     width: 58px;
@@ -310,9 +311,6 @@ img {
   .header-contact__icon {
     margin-right: 10px;
     fill: #757575;
-  }
-  .header-contact__mail {
-    padding-top: 32px;
   }
   .header-contact__mail:hover .header-contact__icon {
     fill: #2196f3;
@@ -338,7 +336,6 @@ img {
     letter-spacing: 0.03em;
     text-decoration: none;
     color: #2196f3;
-    padding-top: 24px;
   }
   .logo > span {
     color: #000000;
@@ -1083,9 +1080,6 @@ img {
     background-color: #2f303a;
     display: flex;
   }
-  .footer .logo {
-    padding-top: 60px;
-  }
   .footer .logo > span {
     color: #ffffff;
   }
@@ -1197,9 +1191,6 @@ img {
   .footer {
     background-color: #2f303a;
     display: flex;
-  }
-  .footer .logo {
-    padding-top: 60px;
   }
   .footer .logo > span {
     color: #ffffff;
