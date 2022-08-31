@@ -17,17 +17,12 @@
       align-items: center;
       justify-content: center;
       fill: $colorIcon;
-    }
-
-    &__item {
-      display: flex;
-      justify-content: center;
-      align-items: center;
       border: 1px solid $colorIcon;
       border-radius: 4px;
       padding: 16px 52px;
 
-      &:hover {
+      &:hover,
+      &:focus {
         border: 1px solid $primaryColor;
         cursor: pointer;
         transition: $transition;
