@@ -56,9 +56,11 @@
 
   .mobile-menu {
     list-style: none;
-    &__items:nth-child(2) {padding: 32px 0;};
+    &__items:nth-child(2) {
+      padding: 32px 0;
+    }
   }
-  
+
   .link {
     text-decoration: none;
     font-weight: 500;
@@ -277,16 +279,15 @@
   .header {
     max-width: 1600px;
     margin: 0 auto;
+    border-bottom: 1px solid #ececec;
+    padding: 24px 0px;
     &-right {
       display: flex;
       margin-left: auto;
     }
-    border-bottom: 1px solid #ececec;
-    padding-bottom: 25px;
     .header-navigation {
       display: flex;
       align-items: center;
-      padding-top: 32px;
       position: relative;
       &__agency,
       &__portfolio,
@@ -313,7 +314,7 @@
       &__agency--active::after {
         content: "";
         position: absolute;
-        bottom: -29px;
+        bottom: -32px;
         height: 4px;
         border-radius: 2px;
         width: 58px;
@@ -326,7 +327,7 @@
       &__portfolio--active::after {
         content: "";
         position: absolute;
-        bottom: -29px;
+        bottom: -32px;
         height: 4px;
         border-radius: 2px;
         width: 58px;
@@ -353,7 +354,6 @@
     &-contact__mail {
       margin-left: auto;
       margin-right: 30px;
-      padding-top: 32px;
     }
 
     &-contact__mail:hover {
@@ -378,10 +378,6 @@
     &-contact__phone:focus {
       color: $primaryColor;
     }
-
-    &-contact__phone {
-      padding-top: 32px;
-    }
   }
 
   .logo {
@@ -393,7 +389,6 @@
     text-decoration: none;
     color: $primaryColor;
     margin-right: 93px;
-    padding-top: 24px;
     & > span {
       color: #000000;
     }
