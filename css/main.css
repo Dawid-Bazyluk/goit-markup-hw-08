@@ -990,6 +990,7 @@ img {
     line-height: 1.178;
     text-align: center;
     letter-spacing: 0.03em;
+    margin-bottom: 50px;
   }
   .clients-list {
     list-style: none;
@@ -1008,9 +1009,6 @@ img {
     border: 1px solid #2196f3;
     cursor: pointer;
     transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  }
-  .clients-list__item:nth-child(-n+3) {
-    margin-top: 50px;
   }
   .clients-list__item:hover .clients-list__icon {
     fill: #2196f3;
