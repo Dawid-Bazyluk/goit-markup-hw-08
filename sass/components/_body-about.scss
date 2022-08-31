@@ -5,7 +5,9 @@
 }
 
 @media screen and (min-width: 1200px) {
-  .about {padding-top: 0;}
+  .about {
+    padding-top: 0;
+  }
   .about-header {
     margin-bottom: 50px;
     font-weight: 700;
@@ -42,7 +44,7 @@
   .about-list__item {
     .about-list__descripiton {
       position: absolute;
-      bottom: 0;
+      bottom: 30px;
       padding-top: 27px;
       padding-bottom: 27px;
       background-color: rgba(47, 48, 58, 0.8);

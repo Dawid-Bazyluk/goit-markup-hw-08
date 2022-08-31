@@ -733,7 +733,7 @@ img {
   }
   .about-list__item .about-list__descripiton {
     position: absolute;
-    bottom: 0;
+    bottom: 30px;
     padding-top: 27px;
     padding-bottom: 27px;
     background-color: rgba(47, 48, 58, 0.8);
@@ -2130,13 +2130,14 @@ textarea:focus {
   .portfolio-buttons-list__item:not(:last-child) {
     margin-right: 8px;
   }
+  .fix-gap {
+    padding-top: 10px;
+  }
   .project-pictures {
     list-style: none;
     display: flex;
     flex-wrap: wrap;
-    row-gap: 30px;
-    -moz-column-gap: 30px;
-         column-gap: 30px;
+    gap: 30px;
   }
   .project-pictures__item {
     max-width: 354px;
@@ -2178,6 +2179,9 @@ textarea:focus {
     border-right: 1px solid #eeeeee;
     border-bottom: 1px solid #eeeeee;
     border-left: 1px solid #eeeeee;
+  }
+  .fix-gap {
+    padding-bottom: 56px;
   }
   .project-pictures__item:hover .project-pictures__overlay {
     transform: translate(0, 0);
