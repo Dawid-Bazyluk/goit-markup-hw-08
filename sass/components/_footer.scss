@@ -267,10 +267,6 @@
   .footer {
     background-color: $primaryBackground;
     display: flex;
-    & .logo {
-      padding-top: 60px;
-    }
-
     & .logo > span {
       color: #ffffff;
     }

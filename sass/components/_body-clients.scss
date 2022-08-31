@@ -27,8 +27,7 @@
       border-radius: 4px;
       padding: 16px 52px;
 
-      &:hover,
-      &:focus {
+      &:hover {
         border: 1px solid $primaryColor;
         cursor: pointer;
         transition: $transition;
@@ -54,6 +53,9 @@
       fill: $primaryColor;
     }
   }
+  .clients-list__icon:focus {
+    fill: $primaryColor;
+  }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1199px) {
@@ -72,20 +74,10 @@
     gap: 30px;
     &__icon {
       display: flex;
-      align-items: center;
-      justify-content: center;
-      fill: $colorIcon;
-    }
-
-    &__item {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      width: 226px;
-      height: 92px;
+      padding: 16px 58px;
       border: 1px solid $colorIcon;
       border-radius: 4px;
-
+      fill: $colorIcon;
       &:hover,
       &:focus {
         border: 1px solid $primaryColor;
@@ -93,6 +85,7 @@
         transition: $transition;
       }
     }
+
     &__item:nth-child(-n + 3) {
       margin-top: 50px;
     }
@@ -102,6 +95,9 @@
     .clients-list__icon {
       fill: $primaryColor;
     }
+  }
+  .clients-list__icon:focus {
+    fill: $primaryColor;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -120,27 +116,24 @@
       display: flex;
       align-items: center;
       justify-content: center;
-      fill: $colorIcon;
-    }
-
-    &__item {
-      display: flex;
-      justify-content: center;
-      align-items: center;
       width: 170px;
       height: 92px;
       border: 1px solid $colorIcon;
       border-radius: 4px;
-      margin-top: 50px;
-
-      &:not(:last-child) {
-        margin-right: 30px;
-      }
+      fill: $colorIcon;
       &:hover,
       &:focus {
         border: 1px solid $primaryColor;
         cursor: pointer;
         transition: $transition;
+      }
+    }
+
+    &__item {
+      margin-top: 50px;
+
+      &:not(:last-child) {
+        margin-right: 30px;
       }
     }
   }
@@ -149,5 +142,8 @@
     .clients-list__icon {
       fill: $primaryColor;
     }
+  }
+  .clients-list__icon:focus {
+    fill: $primaryColor;
   }
 }
